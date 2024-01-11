@@ -1,0 +1,705 @@
+time=2024-01-10T18:02:22 level=INFO thread_id=main logger=org.springframework.core.KotlinDetector msg=Kotlin reflection implementation not found at runtime, related features won't be available. 
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                        
+
+time=2024-01-10T18:02:23 level=INFO thread_id=main logger=net.juniper.atom.jobsvc.WorkflowEngineApplication msg=Starting WorkflowEngineApplication on jobmanager-7ff7b98864-5jpd9 with PID 7 (/app/dist/libjobsvc.jar started by root in /) 
+time=2024-01-10T18:02:23 level=INFO thread_id=main logger=net.juniper.atom.jobsvc.WorkflowEngineApplication msg=No active profile set, falling back to default profiles: default 
+time=2024-01-10T18:02:23 level=WARN thread_id=background-preinit logger=org.springframework.http.converter.json.Jackson2ObjectMapperBuilder msg=For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath 
+time=2024-01-10T18:02:24 level=INFO thread_id=main logger=org.springframework.data.repository.config.RepositoryConfigurationDelegate msg=Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+time=2024-01-10T18:02:24 level=INFO thread_id=main logger=org.springframework.data.repository.config.RepositoryConfigurationDelegate msg=Finished Spring Data repository scanning in 176ms. Found 5 JPA repository interfaces. 
+time=2024-01-10T18:02:25 level=INFO thread_id=main logger=org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker msg=Bean 'org.springframework.kafka.annotation.KafkaBootstrapConfiguration' of type [org.springframework.kafka.annotation.KafkaBootstrapConfiguration$$EnhancerBySpringCGLIB$$8bf34e43] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+time=2024-01-10T18:02:25 level=INFO thread_id=main logger=org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker msg=Bean 'applicationConfig' of type [net.juniper.atom.jobsvc.configuration.ApplicationConfig$$EnhancerBySpringCGLIB$$69381ee9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+time=2024-01-10T18:02:25 level=INFO thread_id=main logger=org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker msg=Bean 'persistenceJPAConfig' of type [net.juniper.atom.jobsvc.configuration.PersistenceJPAConfig$$EnhancerBySpringCGLIB$$480249f1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+time=2024-01-10T18:02:25 level=INFO thread_id=main logger=org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker msg=Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+time=2024-01-10T18:02:25 level=INFO thread_id=main logger=org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker msg=Bean 'io.opentracing.contrib.spring.cloud.kafka.KafkaAutoConfiguration' of type [io.opentracing.contrib.spring.cloud.kafka.KafkaAutoConfiguration$$EnhancerBySpringCGLIB$$746c9895] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+time=2024-01-10T18:02:25 level=INFO thread_id=main logger=OpentracingConfig msg=Inside initStaticFlags 
+time=2024-01-10T18:02:25 level=INFO thread_id=main logger=org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker msg=Bean 'opentracingConfig' of type [net.juniper.atom.jobsvc.OpentracingConfig$$EnhancerBySpringCGLIB$$a5a2a749] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+time=2024-01-10T18:02:25 level=INFO thread_id=main logger=OpentracingConfig msg=Configured GlobalTracer:GlobalTracer{NoopTracer} 
+time=2024-01-10T18:02:25 level=INFO thread_id=main logger=org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker msg=Bean 'getTracer' of type [io.opentracing.util.GlobalTracer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+time=2024-01-10T18:02:25 level=INFO thread_id=main logger=org.springframework.boot.web.embedded.tomcat.TomcatWebServer msg=Tomcat initialized with port(s): 8090 (http) 
+time=2024-01-10T18:02:25 level=INFO thread_id=main logger=org.apache.coyote.http11.Http11NioProtocol msg=Initializing ProtocolHandler ["http-nio-8090"] 
+time=2024-01-10T18:02:25 level=INFO thread_id=main logger=org.apache.catalina.core.StandardService msg=Starting service [Tomcat] 
+time=2024-01-10T18:02:25 level=INFO thread_id=main logger=org.apache.catalina.core.StandardEngine msg=Starting Servlet engine: [Apache Tomcat/9.0.30] 
+time=2024-01-10T18:02:26 level=INFO thread_id=main logger=org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] msg=Initializing Spring embedded WebApplicationContext 
+time=2024-01-10T18:02:26 level=INFO thread_id=main logger=org.springframework.web.context.ContextLoader msg=Root WebApplicationContext: initialization completed in 2502 ms 
+time=2024-01-10T18:02:26 level=INFO thread_id=main logger=org.hibernate.jpa.internal.util.LogHelper msg=HHH000204: Processing PersistenceUnitInfo [name: default] 
+time=2024-01-10T18:02:26 level=INFO thread_id=main logger=org.hibernate.Version msg=HHH000412: Hibernate Core {[WORKING]} 
+time=2024-01-10T18:02:26 level=INFO thread_id=main logger=org.hibernate.annotations.common.Version msg=HCANN000001: Hibernate Commons Annotations {5.1.0.Final} 
+time=2024-01-10T18:02:26 level=INFO thread_id=main logger=org.hibernate.dialect.Dialect msg=HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect 
+time=2024-01-10T18:02:28 level=WARN thread_id=main logger=com.zaxxer.hikari.HikariConfig msg=HikariPool-1 - idleTimeout is close to or more than maxLifetime, disabling it. 
+time=2024-01-10T18:02:28 level=INFO thread_id=main logger=com.zaxxer.hikari.HikariDataSource msg=HikariPool-1 - Starting... 
+time=2024-01-10T18:02:28 level=INFO thread_id=main logger=com.zaxxer.hikari.HikariDataSource msg=HikariPool-1 - Start completed. 
+time=2024-01-10T18:02:28 level=INFO thread_id=main logger=org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator msg=HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+time=2024-01-10T18:02:28 level=INFO thread_id=main logger=org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean msg=Initialized JPA EntityManagerFactory for persistence unit 'default' 
+time=2024-01-10T18:02:28 level=INFO thread_id=main logger=org.flowable.spring.boot.ProcessEngineAutoConfiguration msg=No deployment resources were found for autodeployment 
+time=2024-01-10T18:02:29 level=INFO thread_id=main logger=org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor msg=Initializing ExecutorService 'applicationTaskExecutor' 
+time=2024-01-10T18:02:29 level=INFO thread_id=main logger=org.flowable.spring.SpringProcessEngineConfiguration msg=Found 1 Engine Configurators in total: 
+time=2024-01-10T18:02:29 level=INFO thread_id=main logger=org.flowable.spring.SpringProcessEngineConfiguration msg=class org.flowable.idm.engine.configurator.IdmEngineConfigurator (priority:150000) 
+time=2024-01-10T18:02:29 level=INFO thread_id=main logger=org.flowable.spring.SpringProcessEngineConfiguration msg=Executing beforeInit() of class org.flowable.idm.engine.configurator.IdmEngineConfigurator (priority:150000) 
+time=2024-01-10T18:02:30 level=INFO thread_id=main logger=org.flowable.spring.SpringProcessEngineConfiguration msg=Executing configure() of class org.flowable.idm.engine.configurator.IdmEngineConfigurator (priority:150000) 
+time=2024-01-10T18:02:30 level=INFO thread_id=main logger=org.flowable.idm.engine.impl.IdmEngineImpl msg=IdmEngine default created 
+time=2024-01-10T18:02:30 level=INFO thread_id=main logger=org.flowable.engine.impl.ProcessEngineImpl msg=ProcessEngine default created 
+time=2024-01-10T18:02:30 level=INFO thread_id=main logger=org.flowable.engine.impl.cmd.ValidateV5EntitiesCmd msg=Total of v5 deployments found: 0 
+time=2024-01-10T18:02:30 level=INFO thread_id=main logger=AuthenticationAspect msg=start AuthenticationAspect 
+start ExecutionContextAspect
+time=2024-01-10T18:02:31 level=INFO thread_id=main logger=org.springframework.aop.framework.CglibAopProxy msg=Unable to proxy interface-implementing method [public final io.grpc.ServerServiceDefinition net.juniper.atom.jobsvc.grpc.JobServiceGrpc$JobServiceImplBase.bindService()] because it is marked as final: Consider using interface-based JDK proxies instead! 
+time=2024-01-10T18:02:31 level=WARN thread_id=main logger=org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration msg=spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+time=2024-01-10T18:02:32 level=INFO thread_id=main logger=org.flowable.job.service.impl.asyncexecutor.AbstractAsyncExecutor msg=Starting up the async job executor [org.flowable.spring.job.service.SpringAsyncExecutor]. 
+time=2024-01-10T18:02:32 level=INFO thread_id=Thread-3 logger=org.flowable.job.service.impl.asyncexecutor.AcquireTimerJobsRunnable msg=starting to acquire async jobs due 
+time=2024-01-10T18:02:32 level=INFO thread_id=Thread-2 logger=org.flowable.job.service.impl.asyncexecutor.AcquireAsyncJobsDueRunnable msg=starting to acquire async jobs due 
+time=2024-01-10T18:02:32 level=INFO thread_id=Thread-4 logger=org.flowable.job.service.impl.asyncexecutor.ResetExpiredJobsRunnable msg=starting to reset expired jobs for engine bpmn 
+time=2024-01-10T18:02:32 level=INFO thread_id=main logger=org.apache.coyote.http11.Http11NioProtocol msg=Starting ProtocolHandler ["http-nio-8090"] 
+time=2024-01-10T18:02:32 level=INFO thread_id=main logger=org.springframework.boot.web.embedded.tomcat.TomcatWebServer msg=Tomcat started on port(s): 8090 (http) with context path '' 
+time=2024-01-10T18:02:32 level=INFO thread_id=main logger=net.juniper.atom.jobsvc.WorkflowEngineApplication msg=Started WorkflowEngineApplication in 9.903 seconds (JVM running for 10.898) 
+time=2024-01-10T18:02:32 level=INFO thread_id=main logger=org.lognet.springboot.grpc.GRpcServerRunner msg=Starting gRPC Server ... 
+time=2024-01-10T18:02:32 level=INFO thread_id=main logger=org.lognet.springboot.grpc.GRpcServerRunner msg='net.juniper.atom.jobsvc.grpc.JobServiceServer$$EnhancerBySpringCGLIB$$e135f29' service has been registered. 
+time=2024-01-10T18:02:32 level=INFO thread_id=main logger=org.lognet.springboot.grpc.GRpcServerRunner msg='net.juniper.atom.jobsvc.grpc.WorkflowPluginServer' service has been registered. 
+time=2024-01-10T18:02:32 level=INFO thread_id=main logger=net.juniper.atom.jobsvc.grpc.GRPCServerBuilderConfigurer msg=9091 
+time=2024-01-10T18:02:32 level=INFO thread_id=main logger=net.juniper.atom.jobsvc.grpc.GRPCServerBuilderConfigurer msg=/etc/certs/tls.crt 
+time=2024-01-10T18:02:32 level=INFO thread_id=main logger=net.juniper.atom.jobsvc.grpc.GRPCServerBuilderConfigurer msg=/etc/certs/tls.key 
+time=2024-01-10T18:02:32 level=INFO thread_id=main logger=net.juniper.atom.jobsvc.grpc.GRPCServerBuilderConfigurer msg=/etc/certs/ca.crt 
+time=2024-01-10T18:02:32 level=INFO thread_id=main logger=net.juniper.atom.jobsvc.grpc.GRPCServerBuilderConfigurer msg=not PKCS8 key 
+time=2024-01-10T18:02:33 level=INFO thread_id=main logger=org.lognet.springboot.grpc.GRpcServerRunner msg=gRPC Server started, listening on port 9091. 
+time=2024-01-10T18:02:33 level=INFO thread_id=main logger=net.juniper.atom.jobsvc.WorkflowEngineApplication msg=in progress tasks 3 
+time=2024-01-10T18:02:33 level=INFO thread_id=main logger=net.juniper.atom.jobsvc.WorkflowEngineApplication msg=checking task sync-inventory 
+username=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:02:33 level=INFO thread_id=main logger=net.juniper.atom.jobsvc.util.JobStoreHelper msg=in getTaskByActivityIdExecutionId 
+username=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:02:33 level=INFO thread_id=main logger=net.juniper.atom.jobsvc.util.JobStoreHelper msg=creating channel 
+username=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:02:33 level=INFO thread_id=main logger=net.juniper.atom.jobsvc.util.GRPCUtil msg=jobstore.ems:9091 
+username=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:02:34 level=INFO thread_id=main logger=net.juniper.atom.jobsvc.WorkflowEngineApplication msg=checking task sync-inventory 
+username=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:02:34 level=INFO thread_id=main logger=net.juniper.atom.jobsvc.util.JobStoreHelper msg=in getTaskByActivityIdExecutionId 
+username=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:02:34 level=INFO thread_id=main logger=net.juniper.atom.jobsvc.WorkflowEngineApplication msg=checking task sync-inventory 
+username=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:02:34 level=INFO thread_id=main logger=net.juniper.atom.jobsvc.util.JobStoreHelper msg=in getTaskByActivityIdExecutionId 
+time=2024-01-10T18:02:34 level=INFO thread_id=pool-3-thread-1 logger=net.juniper.atom.jobsvc.util.GRPCUtil msg=grpc connection target iam.common:9091 
+In post Start Instance uuid 1f805707-85f9-4b6b-855d-e51eaf4668da
+username=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:02:34 level=INFO thread_id=main logger=net.juniper.atom.jobsvc.WorkflowEngineApplication msg=starting configmap watcher 
+time=2024-01-10T18:02:34 level=INFO thread_id=pool-3-thread-2 logger=FailInActiveJobTimer msg=Inactive JOB IDs:[51fe19b7-ca7b-4b95-b6d0-89dc0c449ebe, 2133d7dd-c2ff-4f93-b71d-1edc0dea9c7a] 
+time=2024-01-10T18:02:34 level=INFO thread_id=pool-3-thread-1 logger=JobServiceTimerTask msg=Inside JobServiceTimeTask url: https://devicemanager.ems:9091/devicemanager/sync-inventory-async payload: {"sync_inventory_request":[{"device_uuid":"97ba66bb-ccb7-4479-84f8-d3e4b25b36ea","resource_identifier":"ptx10004-rpd-a"}]} 
+time=2024-01-10T18:02:34 level=INFO thread_id=pool-3-thread-1 logger=JobServiceTimerTask msg=updated time stamp 1704909524386226 
+time=2024-01-10T18:02:34 level=INFO thread_id=pool-3-thread-1 logger=net.juniper.atom.jobsvc.util.JobStoreHelper msg=in update scheduled job: status: inprogress for id: c2feb922-e036-48c5-8b06-ec3b7c6c1eaf 
+time=2024-01-10T18:02:34 level=INFO thread_id=pool-3-thread-1 logger=net.juniper.atom.jobsvc.util.JobStoreHelper msg=updated scheduled job 
+time=2024-01-10T18:02:34 level=INFO thread_id=pool-3-thread-1 logger=JobServiceTimerTask msg=new update time stamp 1704909754321050 
+time=2024-01-10T18:02:34 level=INFO thread_id=pool-3-thread-2 logger=FailInActiveJobTimer msg=Inprogress Tasks for inactive jobs 0 
+post body {"sync_inventory_request":[{"device_uuid":"97ba66bb-ccb7-4479-84f8-d3e4b25b36ea","resource_identifier":"ptx10004-rpd-a"}]}
+username=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:02:34 level=INFO thread_id=main logger=net.juniper.atom.jobsvc.util.ReloadConfigMap msg=Added new Kubernetes watch: jobmanager-configmap 
+username=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:02:34 level=INFO thread_id=main logger=net.juniper.atom.jobsvc.util.ReloadConfigMap msg=Kubernetes event-based configuration change detector activated 
+username=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:02:34 level=INFO thread_id=main logger=net.juniper.atom.jobsvc.WorkflowEngineApplication msg=starting operator 
+time=2024-01-10T18:02:34 level=INFO thread_id=pool-4-thread-1 logger=net.juniper.atom.jobsvc.WorkflowEngineApplication msg=starting operator1 
+time=2024-01-10T18:02:34 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.WorkflowEngineApplication msg=starting operator2 
+time=2024-01-10T18:02:34 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.operator.WorkflowPluginOperator msg=in workflow plugin register method 
+time=2024-01-10T18:02:34 level=INFO thread_id=pool-4-thread-1 logger=net.juniper.atom.jobsvc.operator.WorkflowDefinitionOperator msg=in register method 
+time=2024-01-10T18:02:34 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.operator.WorkflowPluginOperator msg=Using namespace : ems 
+time=2024-01-10T18:02:34 level=INFO thread_id=pool-4-thread-1 logger=net.juniper.atom.jobsvc.operator.WorkflowDefinitionOperator msg=Using namespace : ems 
+time=2024-01-10T18:02:34 level=INFO thread_id=informer-controller-WorkflowPlugin logger=io.fabric8.kubernetes.client.informers.cache.Controller msg=informer#Controller: ready to run resync and reflector runnable 
+time=2024-01-10T18:02:34 level=INFO thread_id=informer-controller-WorkflowPlugin logger=io.fabric8.kubernetes.client.informers.cache.Reflector msg=Started ReflectorRunnable watch for class net.juniper.atom.jobsvc.operator.crd.WorkflowPlugin 
+time=2024-01-10T18:02:34 level=INFO thread_id=informer-controller-WorkflowDefinition logger=io.fabric8.kubernetes.client.informers.cache.Controller msg=informer#Controller: ready to run resync and reflector runnable 
+time=2024-01-10T18:02:34 level=INFO thread_id=informer-controller-WorkflowDefinition logger=io.fabric8.kubernetes.client.informers.cache.Reflector msg=Started ReflectorRunnable watch for class net.juniper.atom.jobsvc.operator.crd.WorkflowDefinition 
+time=2024-01-10T18:02:34 level=INFO thread_id=OkHttp https://10.96.0.1/... logger=net.juniper.atom.jobsvc.util.ReloadConfigMap msg=Kubernetes configuration change detector activated 
+time=2024-01-10T18:02:34 level=INFO thread_id=OkHttp https://10.96.0.1/... logger=net.juniper.atom.jobsvc.util.ReloadConfigMap msg=Edited root log level:INFO 
+time=2024-01-10T18:02:34 level=INFO thread_id=OkHttp https://10.96.0.1/... logger=net.juniper.atom.jobsvc.util.ReloadConfigMap msg=Log level changed to INFO 
+time=2024-01-10T18:02:34 level=ERROR thread_id=pool-7-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowDefinitionController msg=enqueueWD(activate-reachable-devices) 
+time=2024-01-10T18:02:34 level=ERROR thread_id=pool-7-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowDefinitionController msg=added (activate-reachable-devices) to workqueue 
+time=2024-01-10T18:02:34 level=ERROR thread_id=pool-7-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowDefinitionController msg=enqueueWD(deletecertificate) 
+time=2024-01-10T18:02:34 level=ERROR thread_id=pool-7-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowDefinitionController msg=added (deletecertificate) to workqueue 
+time=2024-01-10T18:02:34 level=ERROR thread_id=pool-7-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowDefinitionController msg=enqueueWD(deletedevices) 
+time=2024-01-10T18:02:34 level=ERROR thread_id=pool-7-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowDefinitionController msg=added (deletedevices) to workqueue 
+time=2024-01-10T18:02:34 level=INFO thread_id=pool-4-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowDefinitionController msg=Got activate-reachable-devices 
+time=2024-01-10T18:02:34 level=ERROR thread_id=pool-7-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowDefinitionController msg=enqueueWD(deploycacertificate) 
+time=2024-01-10T18:02:34 level=ERROR thread_id=pool-7-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowDefinitionController msg=added (deploycacertificate) to workqueue 
+time=2024-01-10T18:02:34 level=ERROR thread_id=pool-7-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowDefinitionController msg=enqueueWD(deployconfigresources) 
+time=2024-01-10T18:02:34 level=ERROR thread_id=pool-7-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowDefinitionController msg=added (deployconfigresources) to workqueue 
+time=2024-01-10T18:02:34 level=ERROR thread_id=pool-7-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowDefinitionController msg=enqueueWD(deployconfigtemplates) 
+time=2024-01-10T18:02:34 level=ERROR thread_id=pool-7-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowDefinitionController msg=added (deployconfigtemplates) to workqueue 
+time=2024-01-10T18:02:34 level=ERROR thread_id=pool-7-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowDefinitionController msg=enqueueWD(deployimage) 
+time=2024-01-10T18:02:34 level=ERROR thread_id=pool-7-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowDefinitionController msg=added (deployimage) to workqueue 
+time=2024-01-10T18:02:34 level=ERROR thread_id=pool-7-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowDefinitionController msg=enqueueWD(deploylicense) 
+time=2024-01-10T18:02:34 level=ERROR thread_id=pool-7-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowDefinitionController msg=added (deploylicense) to workqueue 
+time=2024-01-10T18:02:34 level=ERROR thread_id=pool-7-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowDefinitionController msg=enqueueWD(deploylocalcertificate) 
+time=2024-01-10T18:02:34 level=ERROR thread_id=pool-7-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowDefinitionController msg=added (deploylocalcertificate) to workqueue 
+time=2024-01-10T18:02:34 level=ERROR thread_id=pool-7-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowDefinitionController msg=enqueueWD(discover-on-connect) 
+time=2024-01-10T18:02:34 level=ERROR thread_id=pool-7-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowDefinitionController msg=added (discover-on-connect) to workqueue 
+time=2024-01-10T18:02:34 level=ERROR thread_id=pool-7-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowDefinitionController msg=enqueueWD(discoverdevices) 
+time=2024-01-10T18:02:34 level=ERROR thread_id=pool-7-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowDefinitionController msg=added (discoverdevices) to workqueue 
+time=2024-01-10T18:02:34 level=ERROR thread_id=pool-7-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowDefinitionController msg=enqueueWD(enabledefaultcaprofile) 
+time=2024-01-10T18:02:34 level=ERROR thread_id=pool-7-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowDefinitionController msg=added (enabledefaultcaprofile) to workqueue 
+time=2024-01-10T18:02:34 level=ERROR thread_id=pool-7-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowDefinitionController msg=enqueueWD(rebootdevices) 
+time=2024-01-10T18:02:34 level=ERROR thread_id=pool-7-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowDefinitionController msg=added (rebootdevices) to workqueue 
+time=2024-01-10T18:02:34 level=ERROR thread_id=pool-7-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowDefinitionController msg=enqueueWD(restorearchivedconfigversion) 
+time=2024-01-10T18:02:34 level=ERROR thread_id=pool-7-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowDefinitionController msg=added (restorearchivedconfigversion) to workqueue 
+time=2024-01-10T18:02:34 level=ERROR thread_id=pool-7-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowDefinitionController msg=enqueueWD(resynchronizewithnetwork) 
+time=2024-01-10T18:02:34 level=ERROR thread_id=pool-7-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowDefinitionController msg=added (resynchronizewithnetwork) to workqueue 
+time=2024-01-10T18:02:34 level=ERROR thread_id=pool-7-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowDefinitionController msg=enqueueWD(stageimage) 
+time=2024-01-10T18:02:34 level=ERROR thread_id=pool-7-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowDefinitionController msg=added (stageimage) to workqueue 
+time=2024-01-10T18:02:34 level=ERROR thread_id=pool-7-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowDefinitionController msg=enqueueWD(validateconfigtemplates) 
+time=2024-01-10T18:02:34 level=ERROR thread_id=pool-7-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowDefinitionController msg=added (validateconfigtemplates) to workqueue 
+time=2024-01-10T18:02:34 level=ERROR thread_id=pool-7-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowDefinitionController msg=enqueueWD(ztp-dhcp) 
+time=2024-01-10T18:02:34 level=ERROR thread_id=pool-7-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowDefinitionController msg=added (ztp-dhcp) to workqueue 
+time=2024-01-10T18:02:34 level=INFO thread_id=pool-6-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=enqueueWP(acquire-device-lock-for-upgrade) 
+time=2024-01-10T18:02:34 level=INFO thread_id=pool-6-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=added (acquire-device-lock-for-upgrade) to workqueue 
+time=2024-01-10T18:02:34 level=INFO thread_id=pool-6-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=enqueueWP(activate-wait-for-conn) 
+time=2024-01-10T18:02:34 level=INFO thread_id=pool-6-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=added (activate-wait-for-conn) to workqueue 
+time=2024-01-10T18:02:34 level=INFO thread_id=pool-6-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=enqueueWP(await-config-resync-single-device) 
+time=2024-01-10T18:02:34 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=Got acquire-device-lock-for-upgrade 
+time=2024-01-10T18:02:34 level=INFO thread_id=pool-6-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=added (await-config-resync-single-device) to workqueue 
+time=2024-01-10T18:02:34 level=INFO thread_id=pool-6-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=enqueueWP(await-ztp-progress) 
+time=2024-01-10T18:02:34 level=INFO thread_id=pool-6-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=added (await-ztp-progress) to workqueue 
+time=2024-01-10T18:02:34 level=INFO thread_id=pool-6-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=enqueueWP(cleanup-device-lock) 
+time=2024-01-10T18:02:34 level=INFO thread_id=pool-6-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=added (cleanup-device-lock) to workqueue 
+time=2024-01-10T18:02:34 level=INFO thread_id=pool-6-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=enqueueWP(configure-doa) 
+time=2024-01-10T18:02:34 level=INFO thread_id=pool-6-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=added (configure-doa) to workqueue 
+time=2024-01-10T18:02:34 level=INFO thread_id=pool-6-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=enqueueWP(delete-certificate) 
+time=2024-01-10T18:02:34 level=INFO thread_id=pool-6-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=added (delete-certificate) to workqueue 
+time=2024-01-10T18:02:34 level=INFO thread_id=pool-6-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=enqueueWP(delete-config-template-deployment-single-device) 
+time=2024-01-10T18:02:34 level=INFO thread_id=pool-6-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=added (delete-config-template-deployment-single-device) to workqueue 
+time=2024-01-10T18:02:34 level=INFO thread_id=pool-6-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=enqueueWP(delete-single-device) 
+time=2024-01-10T18:02:34 level=INFO thread_id=pool-6-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=added (delete-single-device) to workqueue 
+time=2024-01-10T18:02:34 level=INFO thread_id=pool-6-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=enqueueWP(delete-single-device-precheck) 
+time=2024-01-10T18:02:34 level=INFO thread_id=pool-6-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=added (delete-single-device-precheck) to workqueue 
+time=2024-01-10T18:02:34 level=INFO thread_id=pool-6-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=enqueueWP(deploy-ca-certificate) 
+time=2024-01-10T18:02:34 level=INFO thread_id=pool-6-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=added (deploy-ca-certificate) to workqueue 
+time=2024-01-10T18:02:34 level=INFO thread_id=pool-6-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=enqueueWP(deploy-config-resources) 
+time=2024-01-10T18:02:34 level=INFO thread_id=pool-6-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=added (deploy-config-resources) to workqueue 
+time=2024-01-10T18:02:34 level=INFO thread_id=pool-6-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=enqueueWP(deploy-license) 
+time=2024-01-10T18:02:34 level=INFO thread_id=pool-6-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=added (deploy-license) to workqueue 
+time=2024-01-10T18:02:34 level=INFO thread_id=pool-6-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=enqueueWP(deploy-local-certificate) 
+time=2024-01-10T18:02:34 level=INFO thread_id=pool-6-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=added (deploy-local-certificate) to workqueue 
+time=2024-01-10T18:02:34 level=INFO thread_id=pool-6-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=enqueueWP(deploy-template) 
+time=2024-01-10T18:02:34 level=INFO thread_id=pool-6-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=added (deploy-template) to workqueue 
+time=2024-01-10T18:02:34 level=INFO thread_id=pool-6-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=enqueueWP(discover-single-device) 
+time=2024-01-10T18:02:34 level=INFO thread_id=pool-6-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=added (discover-single-device) to workqueue 
+time=2024-01-10T18:02:34 level=INFO thread_id=pool-6-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=enqueueWP(discover-single-modeled-device) 
+time=2024-01-10T18:02:34 level=INFO thread_id=pool-6-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=added (discover-single-modeled-device) to workqueue 
+time=2024-01-10T18:02:34 level=INFO thread_id=pool-6-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=enqueueWP(discovery-failed) 
+time=2024-01-10T18:02:34 level=INFO thread_id=pool-6-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=added (discovery-failed) to workqueue 
+time=2024-01-10T18:02:34 level=INFO thread_id=pool-6-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=enqueueWP(discovery-failed-ip) 
+time=2024-01-10T18:02:34 level=INFO thread_id=pool-6-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=added (discovery-failed-ip) to workqueue 
+time=2024-01-10T18:02:34 level=INFO thread_id=pool-6-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=enqueueWP(discovery-pre-check) 
+time=2024-01-10T18:02:34 level=INFO thread_id=pool-6-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=added (discovery-pre-check) to workqueue 
+time=2024-01-10T18:02:34 level=INFO thread_id=pool-6-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=enqueueWP(discovery-started) 
+time=2024-01-10T18:02:34 level=INFO thread_id=pool-6-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=added (discovery-started) to workqueue 
+time=2024-01-10T18:02:34 level=INFO thread_id=pool-6-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=enqueueWP(discovery-success) 
+time=2024-01-10T18:02:34 level=INFO thread_id=pool-6-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=added (discovery-success) to workqueue 
+time=2024-01-10T18:02:34 level=INFO thread_id=pool-6-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=enqueueWP(enable-single-ca-profile) 
+time=2024-01-10T18:02:34 level=INFO thread_id=pool-6-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=added (enable-single-ca-profile) to workqueue 
+time=2024-01-10T18:02:34 level=INFO thread_id=pool-6-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=enqueueWP(get-system-uptime) 
+time=2024-01-10T18:02:34 level=INFO thread_id=pool-6-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=added (get-system-uptime) to workqueue 
+time=2024-01-10T18:02:34 level=INFO thread_id=pool-6-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=enqueueWP(image-pre-check) 
+time=2024-01-10T18:02:34 level=INFO thread_id=pool-6-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=added (image-pre-check) to workqueue 
+time=2024-01-10T18:02:34 level=INFO thread_id=pool-6-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=enqueueWP(mic-connect-to-device) 
+time=2024-01-10T18:02:34 level=INFO thread_id=pool-6-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=added (mic-connect-to-device) to workqueue 
+time=2024-01-10T18:02:34 level=INFO thread_id=pool-6-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=enqueueWP(mock-plugin) 
+time=2024-01-10T18:02:34 level=INFO thread_id=pool-6-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=added (mock-plugin) to workqueue 
+time=2024-01-10T18:02:34 level=INFO thread_id=pool-6-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=enqueueWP(pin-config-version) 
+time=2024-01-10T18:02:34 level=INFO thread_id=pool-6-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=added (pin-config-version) to workqueue 
+time=2024-01-10T18:02:34 level=INFO thread_id=pool-6-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=enqueueWP(prepare-image-for-download) 
+time=2024-01-10T18:02:34 level=INFO thread_id=pool-6-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=added (prepare-image-for-download) to workqueue 
+time=2024-01-10T18:02:34 level=INFO thread_id=pool-6-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=enqueueWP(push-config-template) 
+time=2024-01-10T18:02:34 level=INFO thread_id=pool-6-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=added (push-config-template) to workqueue 
+time=2024-01-10T18:02:34 level=INFO thread_id=pool-6-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=enqueueWP(reboot-device) 
+time=2024-01-10T18:02:34 level=INFO thread_id=pool-6-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=added (reboot-device) to workqueue 
+time=2024-01-10T18:02:34 level=INFO thread_id=pool-6-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=enqueueWP(reboot-single-device) 
+time=2024-01-10T18:02:34 level=INFO thread_id=pool-6-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=added (reboot-single-device) to workqueue 
+time=2024-01-10T18:02:34 level=INFO thread_id=pool-6-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=enqueueWP(render-config-template) 
+time=2024-01-10T18:02:34 level=INFO thread_id=pool-6-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=added (render-config-template) to workqueue 
+time=2024-01-10T18:02:34 level=INFO thread_id=pool-6-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=enqueueWP(resolve-deploy-devices) 
+time=2024-01-10T18:02:34 level=INFO thread_id=pool-6-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=added (resolve-deploy-devices) to workqueue 
+time=2024-01-10T18:02:34 level=INFO thread_id=pool-6-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=enqueueWP(resolve-devices) 
+time=2024-01-10T18:02:34 level=INFO thread_id=pool-6-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=added (resolve-devices) to workqueue 
+time=2024-01-10T18:02:34 level=INFO thread_id=pool-6-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=enqueueWP(resolve-ips) 
+time=2024-01-10T18:02:34 level=INFO thread_id=pool-6-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=added (resolve-ips) to workqueue 
+time=2024-01-10T18:02:34 level=INFO thread_id=pool-6-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=enqueueWP(restore-archived-config-version-single-device) 
+time=2024-01-10T18:02:34 level=INFO thread_id=pool-6-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=added (restore-archived-config-version-single-device) to workqueue 
+time=2024-01-10T18:02:34 level=INFO thread_id=pool-6-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=enqueueWP(save-ztp-info) 
+time=2024-01-10T18:02:34 level=INFO thread_id=pool-6-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=added (save-ztp-info) to workqueue 
+time=2024-01-10T18:02:34 level=INFO thread_id=pool-6-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=enqueueWP(stage-image) 
+time=2024-01-10T18:02:34 level=INFO thread_id=pool-6-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=added (stage-image) to workqueue 
+time=2024-01-10T18:02:34 level=INFO thread_id=pool-6-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=enqueueWP(sync-config) 
+time=2024-01-10T18:02:34 level=INFO thread_id=pool-6-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=added (sync-config) to workqueue 
+time=2024-01-10T18:02:34 level=INFO thread_id=pool-6-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=enqueueWP(sync-config-template) 
+time=2024-01-10T18:02:34 level=INFO thread_id=pool-6-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=added (sync-config-template) to workqueue 
+time=2024-01-10T18:02:34 level=INFO thread_id=pool-6-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=enqueueWP(sync-inventory) 
+time=2024-01-10T18:02:34 level=INFO thread_id=pool-6-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=added (sync-inventory) to workqueue 
+time=2024-01-10T18:02:34 level=INFO thread_id=pool-6-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=enqueueWP(sync-inventory-during-onboarding) 
+time=2024-01-10T18:02:34 level=INFO thread_id=pool-6-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=added (sync-inventory-during-onboarding) to workqueue 
+time=2024-01-10T18:02:34 level=INFO thread_id=pool-6-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=enqueueWP(telemetry-cleanup) 
+time=2024-01-10T18:02:34 level=INFO thread_id=pool-6-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=added (telemetry-cleanup) to workqueue 
+time=2024-01-10T18:02:34 level=INFO thread_id=pool-6-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=enqueueWP(telemetry-config-deploy) 
+time=2024-01-10T18:02:34 level=INFO thread_id=pool-6-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=added (telemetry-config-deploy) to workqueue 
+time=2024-01-10T18:02:34 level=INFO thread_id=pool-6-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=enqueueWP(upgrade-device) 
+time=2024-01-10T18:02:34 level=INFO thread_id=pool-6-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=added (upgrade-device) to workqueue 
+time=2024-01-10T18:02:34 level=INFO thread_id=pool-6-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=enqueueWP(validate-config-template) 
+time=2024-01-10T18:02:34 level=INFO thread_id=pool-6-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=added (validate-config-template) to workqueue 
+time=2024-01-10T18:02:34 level=INFO thread_id=pool-6-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=enqueueWP(validate-sw-version) 
+time=2024-01-10T18:02:34 level=INFO thread_id=pool-6-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=added (validate-sw-version) to workqueue 
+time=2024-01-10T18:02:34 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.service.WorkflowPluginService msg=Updating existing workflow plugin acquire_device_lock_for_upgrade 
+time=2024-01-10T18:02:34 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=saved plugin Acquire Device Lock For Upgrade 
+time=2024-01-10T18:02:34 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.operator.PodOperator msg=In pod operator register method; received request to add nameSpace:ems, serviceName:dpm and containerName:dpm 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.util.PodMap msg=Adding container:ContainerDetail{containerName='dpm', containerId='docker://8c6560cc52cf4764672261f550325a7ee2f289b261658bc9f096f7d9e83df68e', startedAt='Tue Jan 09 02:02:12 UTC 2024'} to alive pods map for pod:dpm-77ffc9987d-csbcv 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.operator.PodOperator msg=Successfully registered nameSpace:ems, serviceName:dpm and containerName:dpm for pod lifecycle events 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=Got activate-wait-for-conn 
+time=2024-01-10T18:02:35 level=INFO thread_id=informer-controller-Pod logger=io.fabric8.kubernetes.client.informers.cache.Controller msg=informer#Controller: ready to run resync and reflector runnable 
+time=2024-01-10T18:02:35 level=INFO thread_id=informer-controller-Pod logger=io.fabric8.kubernetes.client.informers.cache.Reflector msg=Started ReflectorRunnable watch for class io.fabric8.kubernetes.api.model.Pod 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.service.WorkflowPluginService msg=Updating existing workflow plugin activate-wait-for-conn 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=saved plugin Activate Wait For Conn 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.operator.PodOperator msg=In pod operator register method; received request to add nameSpace:ems, serviceName:devicemanager and containerName:devicemanager 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.util.PodMap msg=Adding container:ContainerDetail{containerName='devicemanager', containerId='docker://24f15b4a8e710f7d9385e27e96ca6ec3c79440c1468e0b794cc14cb3c7c52e56', startedAt='Wed Jan 10 17:31:59 UTC 2024'} to alive pods map for pod:devicemanager-df6cd476d-fgbfz 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.operator.PodOperator msg=Successfully registered nameSpace:ems, serviceName:devicemanager and containerName:devicemanager for pod lifecycle events 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=Got await-config-resync-single-device 
+time=2024-01-10T18:02:35 level=INFO thread_id=informer-controller-Pod logger=io.fabric8.kubernetes.client.informers.cache.Controller msg=informer#Controller: ready to run resync and reflector runnable 
+time=2024-01-10T18:02:35 level=INFO thread_id=informer-controller-Pod logger=io.fabric8.kubernetes.client.informers.cache.Reflector msg=Started ReflectorRunnable watch for class io.fabric8.kubernetes.api.model.Pod 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.service.WorkflowPluginService msg=Updating existing workflow plugin await-config-resync-single-device 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=saved plugin Await Config Resync Single Device 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=Got await-ztp-progress 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.service.WorkflowPluginService msg=Updating existing workflow plugin await-ztp-progress 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=saved plugin Await ZTP Progress 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=Got cleanup-device-lock 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.service.WorkflowPluginService msg=Updating existing workflow plugin cleanup_device_lock 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-14-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.PodController msg=PodListener::Namespace: ems  Pod:  dpm-77ffc9987d-csbcv with phase Running got added 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=saved plugin Cleanup Device Lock on Exception 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=Got configure-doa 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.service.WorkflowPluginService msg=Updating existing workflow plugin configure-doa 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=saved plugin Image Sync and Configure DHCP Server 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=Got delete-certificate 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.service.WorkflowPluginService msg=Updating existing workflow plugin delete_certificate 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=saved plugin Delete Certificate 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=Got delete-config-template-deployment-single-device 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.service.WorkflowPluginService msg=Updating existing workflow plugin delete-config-template-deployment-single-device 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-18-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.PodController msg=PodListener::Namespace: ems  Pod:  devicemanager-df6cd476d-fgbfz with phase Running got added 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=saved plugin Delete Config Template Deployment Single Device 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=Got delete-single-device 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.service.WorkflowPluginService msg=Updating existing workflow plugin delete-single-device 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=saved plugin Delete Device 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=Got delete-single-device-precheck 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.service.WorkflowPluginService msg=Updating existing workflow plugin delete-single-device-precheck 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=saved plugin Delete Single Device PreCheck 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=Got deploy-ca-certificate 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.service.WorkflowPluginService msg=Updating existing workflow plugin deploy_ca_certificate 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=saved plugin Deploy CA Certificate 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=Got deploy-config-resources 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.service.WorkflowPluginService msg=Updating existing workflow plugin deploy-config-resources 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=saved plugin Deploy Config Resources 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=Got deploy-license 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.service.WorkflowPluginService msg=Updating existing workflow plugin deploy_license 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=saved plugin Deploy License 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=Got deploy-local-certificate 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.service.WorkflowPluginService msg=Updating existing workflow plugin deploy_local_certificate 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=saved plugin Deploy Local Certificate 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=Got deploy-template 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.service.WorkflowPluginService msg=Updating existing workflow plugin deploy-template 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=saved plugin Deploy Template 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=Got discover-single-device 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.service.WorkflowPluginService msg=Updating existing workflow plugin discover-single-device 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=saved plugin Discover Single Device 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=Got discover-single-modeled-device 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.service.WorkflowPluginService msg=Updating existing workflow plugin discover-single-modeled-device 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=saved plugin Discover Single Modeled Device 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=Got discovery-failed 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.service.WorkflowPluginService msg=Updating existing workflow plugin discovery-failed 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=saved plugin Discovery Failed 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=Got discovery-failed-ip 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.service.WorkflowPluginService msg=Updating existing workflow plugin discovery-failed-ip 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=saved plugin Discovery Failed IP 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=Got discovery-pre-check 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.service.WorkflowPluginService msg=Updating existing workflow plugin discovery-pre-check 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=saved plugin Discovery PreCheck 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=Got discovery-started 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.service.WorkflowPluginService msg=Updating existing workflow plugin discovery-started 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=saved plugin Discovery Started 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=Got discovery-success 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.service.WorkflowPluginService msg=Updating existing workflow plugin discovery-success 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=saved plugin Discovery Success 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=Got enable-single-ca-profile 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.service.WorkflowPluginService msg=Updating existing workflow plugin enable_single_ca_profile 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=saved plugin Enable Single Ca Profile 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=Got get-system-uptime 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.service.WorkflowPluginService msg=Updating existing workflow plugin get-system-uptime 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=saved plugin Get System Uptime 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=Got image-pre-check 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.service.WorkflowPluginService msg=Updating existing workflow plugin image_pre_check 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=saved plugin Pre Check 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=Got mic-connect-to-device 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.service.WorkflowPluginService msg=Updating existing workflow plugin mic-connect-to-device 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=saved plugin MIC connect to device 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=Got mock-plugin 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.service.WorkflowPluginService msg=Updating existing workflow plugin mock-plugin 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=saved plugin Mock JobPlugin 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=Got pin-config-version 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.service.WorkflowPluginService msg=Updating existing workflow plugin pin-config-version 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=saved plugin Pin Config Version 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=Got prepare-image-for-download 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.service.WorkflowPluginService msg=Updating existing workflow plugin prepare_image_for_download 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=saved plugin Prepare Image For Download 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=Got push-config-template 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.service.WorkflowPluginService msg=Updating existing workflow plugin push-config-template 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=saved plugin Push Config Template 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=Got reboot-device 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.service.WorkflowPluginService msg=Updating existing workflow plugin reboot-device 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=saved plugin Reboot Device 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=Got reboot-single-device 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.service.WorkflowPluginService msg=Updating existing workflow plugin reboot-single-device 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=saved plugin Reboot Single Device 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=Got render-config-template 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.service.WorkflowPluginService msg=Updating existing workflow plugin render-config-template 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=saved plugin Render Config Template 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=Got resolve-deploy-devices 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.service.WorkflowPluginService msg=Updating existing workflow plugin resolve_deploy_devices 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=saved plugin Resolve Devices For Deploy 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=Got resolve-devices 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.service.WorkflowPluginService msg=Updating existing workflow plugin resolve_devices 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=saved plugin Resolve Devices For Staging 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=Got resolve-ips 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.service.WorkflowPluginService msg=Updating existing workflow plugin resolve-ips 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=saved plugin Resolve IPs 
+username=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:02:35 level=INFO thread_id=pool-4-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowDefinitionController msg=Got deletecertificate 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=Got restore-archived-config-version-single-device 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.service.WorkflowPluginService msg=Updating existing workflow plugin restore-archived-config-version-single-device 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=saved plugin Restore Device Configuration From Archived Config Version 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=Got save-ztp-info 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.service.WorkflowPluginService msg=Updating existing workflow plugin save-ztp-info 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=saved plugin Save ZTP Info 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=Got stage-image 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.service.WorkflowPluginService msg=Updating existing workflow plugin stage_image 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=saved plugin Stage Image 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=Got sync-config 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.service.WorkflowPluginService msg=Updating existing workflow plugin sync-config 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=saved plugin Sync Config 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=Got sync-config-template 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.service.WorkflowPluginService msg=Updating existing workflow plugin sync-config-template 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=saved plugin Sync Config Template 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=Got sync-inventory 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.service.WorkflowPluginService msg=Updating existing workflow plugin sync-inventory 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=saved plugin Sync Inventory 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=Got sync-inventory-during-onboarding 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.service.WorkflowPluginService msg=Updating existing workflow plugin sync-inventory-during-onboarding 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=saved plugin Sync Inventory During Onboarding 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=Got telemetry-cleanup 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.service.WorkflowPluginService msg=Updating existing workflow plugin telemetry-cleanup 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=saved plugin Telemetry Cleanup 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=Got telemetry-config-deploy 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.service.WorkflowPluginService msg=Updating existing workflow plugin telemetry-config-deploy 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=saved plugin Telemetry Config Deploy 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=Got upgrade-device 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.service.WorkflowPluginService msg=Updating existing workflow plugin upgrade_device 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=saved plugin Upgrade Device 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=Got validate-config-template 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.service.WorkflowPluginService msg=Updating existing workflow plugin validate-config-template 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=saved plugin Validate Config Template 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=Got validate-sw-version 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.service.WorkflowPluginService msg=Updating existing workflow plugin validate_sw_version 
+time=2024-01-10T18:02:35 level=INFO thread_id=pool-5-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowPluginController msg=saved plugin Validate Software Version after Image Upgrade 
+username=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:02:35 level=INFO thread_id=pool-4-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowDefinitionController msg=Got deletedevices 
+username=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:02:35 level=INFO thread_id=pool-4-thread-1 logger=net.juniper.atom.jobsvc.service.WorkflowDefinitionService msg=no of process instances 0 
+username=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:02:35 level=INFO thread_id=pool-4-thread-1 logger=net.juniper.atom.jobsvc.service.WorkflowDefinitionService msg=no of historic instances 3 
+username=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:02:35 level=ERROR thread_id=pool-4-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowDefinitionController msg=failed to create/update wd delete-devices- The definition has job started, the operation cannot be executed. 
+username=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:02:35 level=INFO thread_id=pool-4-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowDefinitionController msg=Got deploycacertificate 
+username=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:02:35 level=INFO thread_id=pool-4-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowDefinitionController msg=Got deployconfigresources 
+username=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:02:36 level=INFO thread_id=pool-4-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowDefinitionController msg=Got deployconfigtemplates 
+username=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:02:36 level=INFO thread_id=pool-4-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowDefinitionController msg=Got deployimage 
+username=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:02:36 level=INFO thread_id=pool-4-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowDefinitionController msg=Got deploylicense 
+username=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:02:36 level=INFO thread_id=pool-4-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowDefinitionController msg=Got deploylocalcertificate 
+username=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:02:36 level=INFO thread_id=pool-4-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowDefinitionController msg=Got discover-on-connect 
+username=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:02:36 level=INFO thread_id=pool-4-thread-1 logger=net.juniper.atom.jobsvc.service.WorkflowDefinitionService msg=no of process instances 0 
+username=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:02:36 level=INFO thread_id=pool-4-thread-1 logger=net.juniper.atom.jobsvc.service.WorkflowDefinitionService msg=no of historic instances 1 
+username=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:02:36 level=ERROR thread_id=pool-4-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowDefinitionController msg=failed to create/update wd discover-on-connect- The definition has job started, the operation cannot be executed. 
+username=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:02:36 level=INFO thread_id=pool-4-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowDefinitionController msg=Got discoverdevices 
+username=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:02:36 level=INFO thread_id=pool-4-thread-1 logger=net.juniper.atom.jobsvc.service.WorkflowDefinitionService msg=no of process instances 0 
+username=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:02:36 level=INFO thread_id=pool-4-thread-1 logger=net.juniper.atom.jobsvc.service.WorkflowDefinitionService msg=no of historic instances 22 
+username=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:02:36 level=ERROR thread_id=pool-4-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowDefinitionController msg=failed to create/update wd discover-devices- The definition has job started, the operation cannot be executed. 
+username=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:02:36 level=INFO thread_id=pool-4-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowDefinitionController msg=Got enabledefaultcaprofile 
+username=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:02:36 level=INFO thread_id=pool-4-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowDefinitionController msg=Got rebootdevices 
+username=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:02:37 level=INFO thread_id=pool-4-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowDefinitionController msg=Got restorearchivedconfigversion 
+username=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:02:37 level=INFO thread_id=pool-4-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowDefinitionController msg=Got resynchronizewithnetwork 
+username=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:02:37 level=INFO thread_id=pool-4-thread-1 logger=net.juniper.atom.jobsvc.service.WorkflowDefinitionService msg=no of process instances 4 
+username=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:02:37 level=INFO thread_id=pool-4-thread-1 logger=net.juniper.atom.jobsvc.service.WorkflowDefinitionService msg=no of historic instances 477 
+username=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:02:37 level=ERROR thread_id=pool-4-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowDefinitionController msg=failed to create/update wd resynchronize-with-network- The definition has job started, the operation cannot be executed. 
+username=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:02:37 level=INFO thread_id=pool-4-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowDefinitionController msg=Got stageimage 
+username=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:02:37 level=INFO thread_id=pool-4-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowDefinitionController msg=Got validateconfigtemplates 
+username=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:02:37 level=INFO thread_id=pool-4-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.WorkflowDefinitionController msg=Got ztp-dhcp 
+time=2024-01-10T18:02:37 level=INFO thread_id=http-nio-8090-exec-1 logger=org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] msg=Initializing Spring DispatcherServlet 'dispatcherServlet' 
+time=2024-01-10T18:02:37 level=INFO thread_id=http-nio-8090-exec-1 logger=org.springframework.web.servlet.DispatcherServlet msg=Initializing Servlet 'dispatcherServlet' 
+time=2024-01-10T18:02:37 level=INFO thread_id=http-nio-8090-exec-1 logger=org.springframework.web.servlet.DispatcherServlet msg=Completed initialization in 16 ms 
+time=2024-01-10T18:03:04 level=INFO thread_id=pool-3-thread-3 logger=TaskTriggerTimerTask msg={} ==> Creating new Span 
+time=2024-01-10T18:03:04 level=INFO thread_id=pool-3-thread-3 logger=org.apache.kafka.clients.producer.ProducerConfig msg=ProducerConfig values: 
+	acks = 1
+	batch.size = 16384
+	bootstrap.servers = [kafka.common:9092]
+	buffer.memory = 33554432
+	client.id = 
+	compression.type = none
+	connections.max.idle.ms = 540000
+	enable.idempotence = false
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 4194304
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 0
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+ 
+time=2024-01-10T18:03:04 level=INFO thread_id=pool-3-thread-3 logger=org.apache.kafka.common.utils.AppInfoParser msg=Kafka version : 2.0.1 
+time=2024-01-10T18:03:04 level=INFO thread_id=pool-3-thread-3 logger=org.apache.kafka.common.utils.AppInfoParser msg=Kafka commitId : fa14705e51bd2ce5 
+time=2024-01-10T18:03:04 level=WARN thread_id=kafka-producer-network-thread | producer-1 logger=org.apache.kafka.clients.NetworkClient msg=[Producer clientId=producer-1] 3 partitions have leader brokers without a matching listener, including [devicemanager.resync-5, devicemanager.resync-2, devicemanager.resync-8] 
+time=2024-01-10T18:03:04 level=INFO thread_id=kafka-producer-network-thread | producer-1 logger=org.apache.kafka.clients.Metadata msg=Cluster ID: hrj7NeyeS7O-kKc9c8gHoA 
+time=2024-01-10T18:03:04 level=INFO thread_id=pool-3-thread-3 logger=TaskTriggerTimerTask msg= Msg sending for task 0bd5d159-2e99-4f93-a387-6dff3b6eabdf name Sync Inventory for each device_6554a5a7-afe2-11ee-b925-3e5d46d8634f display name null execution id 6554a5a7-afe2-11ee-b925-3e5d46d8634f 
+time=2024-01-10T18:03:04 level=INFO thread_id=kafka-producer-network-thread | producer-1 logger=KafkaPublisher msg=Sent message=[{"task_name":"Sync Inventory for each device_6554a5a7-afe2-11ee-b925-3e5d46d8634f","plugin_id":"sync-inventory","job_uuid":"f2ae896d-6e60-4cde-a042-4d8ac05a96e7","variables":{"sync_inventory_single_device_input":{"resource_identifier":"vmx104","device_uuid":"77018c8e-7012-4c8a-ad77-c410f6ddd770"}},"context":{"uid":"system","uname":"system","psids":[""],"sname":"default","stype":"SP","x_request_id":"req-8d975d89-c55c-46de-a7fc-c975a0f0da0a","sid":"c4347eee-3399-4db5-bdf4-64f496ffdba6"},"task_id":"0bd5d159-2e99-4f93-a387-6dff3b6eabdf","task_uuid":"sync-inventory_6554a5a7-afe2-11ee-b925-3e5d46d8634f","timeout":1200}] with offset=[64]  topic = [devicemanager.resync] partition =[3] 
+type=APPLOG time=2024-01-10T18:03:05 level=INFO traceid=req-8d975d89-c55c-46de-a7fc-c975a0f0da0a job-id=f2ae896d-6e60-4cde-a042-4d8ac05a96e7 task-id=sync-inventory_6554a5a7-afe2-11ee-b925-3e5d46d8634f thread_id=grpc-default-executor-0 logger=UserTokenInfo msg=url is UpdatePluginStatus 
+type=APPLOG time=2024-01-10T18:03:05 level=INFO traceid=req-8d975d89-c55c-46de-a7fc-c975a0f0da0a job-id=f2ae896d-6e60-4cde-a042-4d8ac05a96e7 task-id=sync-inventory_6554a5a7-afe2-11ee-b925-3e5d46d8634f thread_id=grpc-default-executor-0 logger=net.juniper.atom.jobsvc.grpc.JobServiceServer msg=entered updatePluginStatus for job f2ae896d-6e60-4cde-a042-4d8ac05a96e7 and task 0bd5d159-2e99-4f93-a387-6dff3b6eabdf 
+type=APPLOG time=2024-01-10T18:03:05 level=INFO traceid=req-8d975d89-c55c-46de-a7fc-c975a0f0da0a job-id=f2ae896d-6e60-4cde-a042-4d8ac05a96e7 task-id=sync-inventory_6554a5a7-afe2-11ee-b925-3e5d46d8634f thread_id=grpc-default-executor-0 logger=net.juniper.atom.jobsvc.grpc.JobServiceServer msg=service token not null 
+type=APPLOG time=2024-01-10T18:03:05 level=INFO traceid=req-8d975d89-c55c-46de-a7fc-c975a0f0da0a job-id=f2ae896d-6e60-4cde-a042-4d8ac05a96e7 task-id=sync-inventory_6554a5a7-afe2-11ee-b925-3e5d46d8634f thread_id=grpc-default-executor-0 logger=net.juniper.atom.jobsvc.grpc.JobServiceServer msg=updating token info in thread context 
+type=APPLOG username=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:03:05 level=INFO traceid=req-8d975d89-c55c-46de-a7fc-c975a0f0da0a job-id=f2ae896d-6e60-4cde-a042-4d8ac05a96e7 task-id=sync-inventory_6554a5a7-afe2-11ee-b925-3e5d46d8634f thread_id=grpc-default-executor-0 logger=net.juniper.atom.jobsvc.grpc.JobServiceServer msg=exiting updatePluginStatus for job f2ae896d-6e60-4cde-a042-4d8ac05a96e7 and task 0bd5d159-2e99-4f93-a387-6dff3b6eabdf with status code success 
+type=APPLOG username=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:03:13 level=INFO traceid=req-8d975d89-c55c-46de-a7fc-c975a0f0da0a job-id=f2ae896d-6e60-4cde-a042-4d8ac05a96e7 task-id=sync-inventory_6554a5a7-afe2-11ee-b925-3e5d46d8634f thread_id=grpc-default-executor-0 logger=UserTokenInfo msg=url is UpdatePluginResponse 
+type=APPLOG username=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:03:13 level=INFO traceid=req-8d975d89-c55c-46de-a7fc-c975a0f0da0a job-id=f2ae896d-6e60-4cde-a042-4d8ac05a96e7 task-id=sync-inventory_6554a5a7-afe2-11ee-b925-3e5d46d8634f thread_id=grpc-default-executor-0 logger=net.juniper.atom.jobsvc.grpc.JobServiceServer msg=entered updatePluginResponse for job f2ae896d-6e60-4cde-a042-4d8ac05a96e7 and task 0bd5d159-2e99-4f93-a387-6dff3b6eabdf 
+type=APPLOG username=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:03:13 level=INFO traceid=req-8d975d89-c55c-46de-a7fc-c975a0f0da0a job-id=f2ae896d-6e60-4cde-a042-4d8ac05a96e7 task-id=sync-inventory_6554a5a7-afe2-11ee-b925-3e5d46d8634f thread_id=grpc-default-executor-0 logger=net.juniper.atom.jobsvc.grpc.JobServiceServer msg=service token not null 
+type=APPLOG username=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:03:13 level=INFO traceid=req-8d975d89-c55c-46de-a7fc-c975a0f0da0a job-id=f2ae896d-6e60-4cde-a042-4d8ac05a96e7 task-id=sync-inventory_6554a5a7-afe2-11ee-b925-3e5d46d8634f thread_id=grpc-default-executor-0 logger=net.juniper.atom.jobsvc.grpc.JobServiceServer msg=updating token info in thread context 
+type=APPLOG username=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:03:13 level=INFO traceid=req-8d975d89-c55c-46de-a7fc-c975a0f0da0a job-id=f2ae896d-6e60-4cde-a042-4d8ac05a96e7 task-id=sync-inventory_6554a5a7-afe2-11ee-b925-3e5d46d8634f thread_id=grpc-default-executor-0 logger=net.juniper.atom.jobsvc.util.JobStoreHelper msg=in update task status 
+type=APPLOG username=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:03:13 level=INFO traceid=req-8d975d89-c55c-46de-a7fc-c975a0f0da0a job-id=f2ae896d-6e60-4cde-a042-4d8ac05a96e7 task-id=sync-inventory_6554a5a7-afe2-11ee-b925-3e5d46d8634f thread_id=grpc-default-executor-0 logger=net.juniper.atom.jobsvc.util.JobStoreHelper msg=updated task status 
+type=APPLOG username=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:03:13 level=INFO traceid=req-8d975d89-c55c-46de-a7fc-c975a0f0da0a job-id=f2ae896d-6e60-4cde-a042-4d8ac05a96e7 task-id=sync-inventory_6554a5a7-afe2-11ee-b925-3e5d46d8634f thread_id=grpc-default-executor-0 logger=net.juniper.atom.jobsvc.grpc.JobServiceServer msg=exiting updatePluginResponse for job f2ae896d-6e60-4cde-a042-4d8ac05a96e7 and task 0bd5d159-2e99-4f93-a387-6dff3b6eabdf 
+time=2024-01-10T18:03:13 level=INFO thread_id=task-1 logger=JobSvcDelegate msg=In JobSvcDelegate Trigger 6554a5a7-afe2-11ee-b925-3e5d46d8634f sync-inventory sync-inventory 
+type=APPLOG username=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:03:13 level=INFO traceid=NO-REQUESTID job-id=f2ae896d-6e60-4cde-a042-4d8ac05a96e7 task-id=sync-inventory_6554a5a7-afe2-11ee-b925-3e5d46d8634f thread_id=task-1 logger=JobSvcDelegate msg=In JobSvcDelegate Trigger success 
+type=APPLOG username=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:03:13 level=INFO traceid=NO-REQUESTID job-id=f2ae896d-6e60-4cde-a042-4d8ac05a96e7 task-id=sync-inventory_6554a5a7-afe2-11ee-b925-3e5d46d8634f thread_id=task-1 logger=net.juniper.atom.jobsvc.service.JobService msg=process definition id 188c379a-9f26-11ee-b806-c26ef6acd299 
+type=APPLOG username=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:03:13 level=INFO traceid=NO-REQUESTID job-id=f2ae896d-6e60-4cde-a042-4d8ac05a96e7 task-id=sync-inventory_6554a5a7-afe2-11ee-b925-3e5d46d8634f thread_id=task-1 logger=net.juniper.atom.jobsvc.service.JobService msg=updating progress for sync-inventory to 100.0 
+type=APPLOG username=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:03:13 level=INFO traceid=NO-REQUESTID job-id=f2ae896d-6e60-4cde-a042-4d8ac05a96e7 task-id=sync-inventory_6554a5a7-afe2-11ee-b925-3e5d46d8634f thread_id=task-1 logger=net.juniper.atom.jobsvc.util.JobStoreHelper msg=in update task percentage 
+type=APPLOG username=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:03:13 level=INFO traceid=NO-REQUESTID job-id=f2ae896d-6e60-4cde-a042-4d8ac05a96e7 task-id=sync-inventory_6554a5a7-afe2-11ee-b925-3e5d46d8634f thread_id=task-1 logger=net.juniper.atom.jobsvc.util.JobStoreHelper msg=in getTaskByActivityIdExecutionId 
+type=APPLOG username=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:03:13 level=INFO traceid=NO-REQUESTID job-id=f2ae896d-6e60-4cde-a042-4d8ac05a96e7 task-id=sync-inventory_6554a5a7-afe2-11ee-b925-3e5d46d8634f thread_id=task-1 logger=net.juniper.atom.jobsvc.util.JobStoreHelper msg=updated task percentage 
+type=APPLOG username=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:03:13 level=INFO traceid=NO-REQUESTID job-id=f2ae896d-6e60-4cde-a042-4d8ac05a96e7 task-id=sync-inventory_6554a5a7-afe2-11ee-b925-3e5d46d8634f thread_id=task-1 logger=net.juniper.atom.jobsvc.service.JobService msg=updating progress for sync-inventory-subprocess to 100.0 
+type=APPLOG username=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:03:13 level=INFO traceid=NO-REQUESTID job-id=f2ae896d-6e60-4cde-a042-4d8ac05a96e7 task-id=sync-inventory_6554a5a7-afe2-11ee-b925-3e5d46d8634f thread_id=task-1 logger=net.juniper.atom.jobsvc.util.JobStoreHelper msg=in update task percentage 
+type=APPLOG username=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:03:13 level=INFO traceid=NO-REQUESTID job-id=f2ae896d-6e60-4cde-a042-4d8ac05a96e7 task-id=sync-inventory_6554a5a7-afe2-11ee-b925-3e5d46d8634f thread_id=task-1 logger=net.juniper.atom.jobsvc.util.JobStoreHelper msg=in getTaskByActivityIdExecutionId 
+type=APPLOG username=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:03:13 level=INFO traceid=NO-REQUESTID job-id=f2ae896d-6e60-4cde-a042-4d8ac05a96e7 task-id=sync-inventory_6554a5a7-afe2-11ee-b925-3e5d46d8634f thread_id=task-1 logger=net.juniper.atom.jobsvc.util.JobStoreHelper msg=updated task percentage 
+type=APPLOG username=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:03:13 level=INFO traceid=NO-REQUESTID job-id=f2ae896d-6e60-4cde-a042-4d8ac05a96e7 task-id=sync-inventory_6554a5a7-afe2-11ee-b925-3e5d46d8634f thread_id=task-1 logger=net.juniper.atom.jobsvc.service.JobService msg=updating job percentage to 100.0 
+type=APPLOG username=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:03:13 level=INFO traceid=NO-REQUESTID job-id=f2ae896d-6e60-4cde-a042-4d8ac05a96e7 task-id=sync-inventory_6554a5a7-afe2-11ee-b925-3e5d46d8634f thread_id=task-1 logger=net.juniper.atom.jobsvc.util.JobStoreHelper msg=in update job percentage 
+type=APPLOG username=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:03:13 level=INFO traceid=NO-REQUESTID job-id=f2ae896d-6e60-4cde-a042-4d8ac05a96e7 task-id=sync-inventory_6554a5a7-afe2-11ee-b925-3e5d46d8634f thread_id=task-1 logger=net.juniper.atom.jobsvc.util.JobStoreHelper msg=getJobByProcessInstanceId 
+type=APPLOG username=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:03:13 level=INFO traceid=NO-REQUESTID job-id=f2ae896d-6e60-4cde-a042-4d8ac05a96e7 task-id=sync-inventory_6554a5a7-afe2-11ee-b925-3e5d46d8634f thread_id=task-1 logger=net.juniper.atom.jobsvc.util.JobStoreHelper msg=updated job percentage 
+serviceTasktype=APPLOG username=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:03:13 level=INFO traceid=NO-REQUESTID job-id=f2ae896d-6e60-4cde-a042-4d8ac05a96e7 task-id=sync-inventory_6554a5a7-afe2-11ee-b925-3e5d46d8634f thread_id=task-1 logger=net.juniper.atom.jobsvc.util.JobStoreHelper msg=in task completion sync-inventory_6554a5a7-afe2-11ee-b925-3e5d46d8634f 
+type=APPLOG username=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:03:13 level=INFO traceid=NO-REQUESTID job-id=f2ae896d-6e60-4cde-a042-4d8ac05a96e7 task-id=sync-inventory_6554a5a7-afe2-11ee-b925-3e5d46d8634f thread_id=task-1 logger=net.juniper.atom.jobsvc.util.JobStoreHelper msg=in getTaskByActivityIdExecutionId 
+subProcesstype=APPLOG username=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:03:13 level=INFO traceid=NO-REQUESTID job-id=f2ae896d-6e60-4cde-a042-4d8ac05a96e7 task-id=sync-inventory_6554a5a7-afe2-11ee-b925-3e5d46d8634f thread_id=task-1 logger=net.juniper.atom.jobsvc.util.JobStoreHelper msg=in task completion sync-inventory-subprocess_654f7681-afe2-11ee-b925-3e5d46d8634f 
+type=APPLOG username=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:03:13 level=INFO traceid=NO-REQUESTID job-id=f2ae896d-6e60-4cde-a042-4d8ac05a96e7 task-id=sync-inventory_6554a5a7-afe2-11ee-b925-3e5d46d8634f thread_id=task-1 logger=net.juniper.atom.jobsvc.util.JobStoreHelper msg=in getTaskByActivityIdExecutionId 
+type=APPLOG username=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:03:13 level=INFO traceid=NO-REQUESTID job-id=f2ae896d-6e60-4cde-a042-4d8ac05a96e7 task-id=sync-inventory_6554a5a7-afe2-11ee-b925-3e5d46d8634f thread_id=task-1 logger=net.juniper.atom.jobsvc.util.JobStoreHelper msg=updating task completion status 
+type=APPLOG username=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:03:13 level=INFO traceid=NO-REQUESTID job-id=f2ae896d-6e60-4cde-a042-4d8ac05a96e7 task-id=sync-inventory_6554a5a7-afe2-11ee-b925-3e5d46d8634f thread_id=task-1 logger=net.juniper.atom.jobsvc.util.JobStoreHelper msg=updated task completion status 
+type=APPLOG username=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:03:14 level=INFO traceid=NO-REQUESTID job-id=f2ae896d-6e60-4cde-a042-4d8ac05a96e7 task-id=sync-inventory_6554a5a7-afe2-11ee-b925-3e5d46d8634f thread_id=task-1 logger=net.juniper.atom.jobsvc.util.JobStoreHelper msg=in update job completion 
+type=APPLOG username=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:03:14 level=INFO traceid=NO-REQUESTID job-id=f2ae896d-6e60-4cde-a042-4d8ac05a96e7 task-id=sync-inventory_6554a5a7-afe2-11ee-b925-3e5d46d8634f thread_id=task-1 logger=net.juniper.atom.jobsvc.util.JobStoreHelper msg=getJobByProcessInstanceId 
+type=APPLOG username=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:03:14 level=INFO traceid=NO-REQUESTID job-id=f2ae896d-6e60-4cde-a042-4d8ac05a96e7 task-id=sync-inventory_6554a5a7-afe2-11ee-b925-3e5d46d8634f thread_id=task-1 logger=net.juniper.atom.jobsvc.util.JobStoreHelper msg=updating job completion status 
+type=APPLOG username=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:03:14 level=INFO traceid=NO-REQUESTID job-id=f2ae896d-6e60-4cde-a042-4d8ac05a96e7 task-id=sync-inventory_6554a5a7-afe2-11ee-b925-3e5d46d8634f thread_id=task-1 logger=net.juniper.atom.jobsvc.util.JobStoreHelper msg=updated job completion 
+time=2024-01-10T18:03:34 level=INFO thread_id=pool-3-thread-2 logger=FailInActiveJobTimer msg=Inactive JOB IDs:[51fe19b7-ca7b-4b95-b6d0-89dc0c449ebe, 2133d7dd-c2ff-4f93-b71d-1edc0dea9c7a] 
+time=2024-01-10T18:03:34 level=INFO thread_id=pool-3-thread-2 logger=FailInActiveJobTimer msg=Inprogress Tasks for inactive jobs 0 
+error happened while executing postjava.net.SocketTimeoutException: Read timed out
+time=2024-01-10T18:03:34 level=ERROR thread_id=pool-3-thread-1 logger=JobServiceTimerTask msg=There is an error in starting job. java.lang.NullPointerException 
+time=2024-01-10T18:03:34 level=INFO thread_id=pool-3-thread-1 logger=net.juniper.atom.jobsvc.util.JobStoreHelper msg=in update scheduled job: status: FAILED id: c2feb922-e036-48c5-8b06-ec3b7c6c1eaf 
+time=2024-01-10T18:03:34 level=INFO thread_id=pool-3-thread-1 logger=net.juniper.atom.jobsvc.util.JobStoreHelper msg=updated scheduled job 
+time=2024-01-10T18:03:34 level=INFO thread_id=pool-3-thread-1 logger=JobServiceTimerTask msg=Inside JobServiceTimeTask url: https://devicemanager.ems:9091/devicemanager/sync-inventory-async payload: {"sync_inventory_request":[{"device_uuid":"050266cc-311a-42dd-8bd0-ec647f3e8504","resource_identifier":"vmx106"}]} 
+time=2024-01-10T18:03:34 level=INFO thread_id=pool-3-thread-1 logger=JobServiceTimerTask msg=updated time stamp 1704909528597500 
+time=2024-01-10T18:03:34 level=INFO thread_id=pool-3-thread-1 logger=net.juniper.atom.jobsvc.util.JobStoreHelper msg=in update scheduled job: status: inprogress for id: 60ce14ad-1816-47e4-a8be-6803d8168759 
+time=2024-01-10T18:03:34 level=INFO thread_id=pool-3-thread-1 logger=net.juniper.atom.jobsvc.util.JobStoreHelper msg=updated scheduled job 
+time=2024-01-10T18:03:34 level=INFO thread_id=pool-3-thread-1 logger=JobServiceTimerTask msg=new update time stamp 1704909814595853 
+post body {"sync_inventory_request":[{"device_uuid":"050266cc-311a-42dd-8bd0-ec647f3e8504","resource_identifier":"vmx106"}]}
+type=APPLOG username=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:03:34 level=INFO traceid=req-8f8de681-013f-4b43-90f3-031d305cc4c6 thread_id=grpc-default-executor-0 logger=UserTokenInfo msg=url is CreateJob 
+type=APPLOG username=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:03:34 level=INFO traceid=req-8f8de681-013f-4b43-90f3-031d305cc4c6 thread_id=grpc-default-executor-0 logger=net.juniper.atom.jobsvc.grpc.JobServiceServer msg=entered create job definitionName: "resynchronize-with-network"
+displayName: "resynchronize-with-network"
+jobParameters {
+  fields {
+    key: "sync_inventory_request"
+    value {
+      list_value {
+        values {
+          struct_value {
+            fields {
+              key: "device_uuid"
+              value {
+                string_value: "050266cc-311a-42dd-8bd0-ec647f3e8504"
+              }
+            }
+            fields {
+              key: "resource_identifier"
+              value {
+                string_value: "vmx106"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+ 
+type=APPLOG username=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:03:34 level=INFO traceid=req-8f8de681-013f-4b43-90f3-031d305cc4c6 thread_id=grpc-default-executor-0 logger=net.juniper.atom.jobsvc.grpc.JobServiceServer msg=service token not null 
+type=APPLOG username=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:03:34 level=INFO traceid=req-8f8de681-013f-4b43-90f3-031d305cc4c6 thread_id=grpc-default-executor-0 logger=net.juniper.atom.jobsvc.grpc.JobServiceServer msg=updating token info in thread context 
+type=APPLOG username=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:03:34 level=INFO traceid=req-8f8de681-013f-4b43-90f3-031d305cc4c6 thread_id=grpc-default-executor-0 logger=net.juniper.atom.jobsvc.util.JobStoreHelper msg=getJobByProcessInstanceId 
+type=APPLOG username=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:03:34 level=INFO traceid=req-8f8de681-013f-4b43-90f3-031d305cc4c6 thread_id=grpc-default-executor-0 logger=net.juniper.atom.jobsvc.util.JobStoreHelper msg=in  create job 
+type=APPLOG username=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:03:34 level=INFO traceid=req-8f8de681-013f-4b43-90f3-031d305cc4c6 thread_id=grpc-default-executor-0 logger=net.juniper.atom.jobsvc.util.JobStoreHelper msg=created job 
+type=APPLOG username=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:03:34 level=INFO traceid=req-8f8de681-013f-4b43-90f3-031d305cc4c6 thread_id=grpc-default-executor-0 logger=net.juniper.atom.jobsvc.util.JobStoreHelper msg=job id for process instance id 926339f2-afe2-11ee-8a34-3e5d46d8634f is 913a781d-f2ea-461b-af03-25eff32d9d79 
+type=APPLOG username=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:03:34 level=INFO traceid=req-8f8de681-013f-4b43-90f3-031d305cc4c6 thread_id=grpc-default-executor-0 logger=net.juniper.atom.jobsvc.util.JobStoreHelper msg=in update job 
+type=APPLOG username=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:03:34 level=INFO traceid=req-8f8de681-013f-4b43-90f3-031d305cc4c6 thread_id=grpc-default-executor-0 logger=net.juniper.atom.jobsvc.util.JobStoreHelper msg=updated job 
+type=APPLOG username=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:03:34 level=INFO traceid=req-8f8de681-013f-4b43-90f3-031d305cc4c6 thread_id=grpc-default-executor-0 logger=net.juniper.atom.jobsvc.grpc.JobServiceServer msg=exiting create job 
+subProcesstime=2024-01-10T18:03:34 level=INFO thread_id=task-2 logger=net.juniper.atom.jobsvc.util.JobStoreHelper msg=in create task:Sync Inventory for device 
+time=2024-01-10T18:03:34 level=INFO thread_id=task-2 logger=net.juniper.atom.jobsvc.util.JobStoreHelper msg=getJobByProcessInstanceId 
+username=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:03:35 level=INFO thread_id=task-2 logger=net.juniper.atom.jobsvc.util.JobStoreHelper msg=created task 
+username=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:03:35 level=INFO thread_id=task-2 logger=net.juniper.atom.jobsvc.service.JobService msg=Task id sync-inventory-subprocess_92775e42-afe2-11ee-8a34-3e5d46d8634f 
+serviceTaskusername=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:03:35 level=INFO thread_id=task-2 logger=net.juniper.atom.jobsvc.util.JobStoreHelper msg=in create task:Sync Inventory for each device 
+username=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:03:35 level=INFO thread_id=task-2 logger=net.juniper.atom.jobsvc.util.JobStoreHelper msg=getJobByProcessInstanceId 
+username=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:03:35 level=INFO thread_id=task-2 logger=net.juniper.atom.jobsvc.util.JobStoreHelper msg=created task 
+username=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:03:35 level=INFO thread_id=task-2 logger=net.juniper.atom.jobsvc.service.JobService msg=Task id sync-inventory_928037e8-afe2-11ee-8a34-3e5d46d8634f 
+type=APPLOG username=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:03:35 level=INFO traceid=NO-REQUESTID task-id=sync-inventory_928037e8-afe2-11ee-8a34-3e5d46d8634f thread_id=task-2 logger=JobSvcDelegate msg= JobSvcDelegate executed  Name: Sync Inventory for each device   PluginId: sync-inventory 
+type=APPLOG username=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:03:35 level=INFO traceid=NO-REQUESTID task-id=sync-inventory_928037e8-afe2-11ee-8a34-3e5d46d8634f thread_id=task-2 logger=JobSvcDelegate msg= JobSvcDelegate executed  Name: 928037e8-afe2-11ee-8a34-3e5d46d8634f 
+type=APPLOG username=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:03:35 level=INFO traceid=NO-REQUESTID task-id=sync-inventory_928037e8-afe2-11ee-8a34-3e5d46d8634f thread_id=task-2 logger=net.juniper.atom.jobsvc.util.JobStoreHelper msg=in update task 
+type=APPLOG username=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:03:35 level=INFO traceid=NO-REQUESTID task-id=sync-inventory_928037e8-afe2-11ee-8a34-3e5d46d8634f thread_id=task-2 logger=net.juniper.atom.jobsvc.util.JobStoreHelper msg=resource variable: sync_inventory_single_device_input 
+type=APPLOG username=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:03:35 level=INFO traceid=NO-REQUESTID task-id=sync-inventory_928037e8-afe2-11ee-8a34-3e5d46d8634f thread_id=task-2 logger=net.juniper.atom.jobsvc.util.JobStoreHelper msg=resource identifier: vmx106 
+type=APPLOG username=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:03:35 level=INFO traceid=NO-REQUESTID task-id=sync-inventory_928037e8-afe2-11ee-8a34-3e5d46d8634f thread_id=task-2 logger=net.juniper.atom.jobsvc.util.JobStoreHelper msg=parent details sync-inventory-subprocess_92775e42-afe2-11ee-8a34-3e5d46d8634f 
+type=APPLOG username=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:03:35 level=INFO traceid=NO-REQUESTID task-id=sync-inventory_928037e8-afe2-11ee-8a34-3e5d46d8634f thread_id=task-2 logger=net.juniper.atom.jobsvc.util.JobStoreHelper msg=gparent details sync-inventory-subprocess_9276c1fe-afe2-11ee-8a34-3e5d46d8634f 
+type=APPLOG username=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:03:35 level=INFO traceid=NO-REQUESTID task-id=sync-inventory_928037e8-afe2-11ee-8a34-3e5d46d8634f thread_id=task-2 logger=net.juniper.atom.jobsvc.util.JobStoreHelper msg=in getTaskByActivityIdExecutionId 
+type=APPLOG username=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:03:35 level=ERROR traceid=NO-REQUESTID task-id=sync-inventory_928037e8-afe2-11ee-8a34-3e5d46d8634f thread_id=task-2 logger=net.juniper.atom.jobsvc.util.JobStoreHelper msg=could not find gparent task 
+type=APPLOG username=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:03:35 level=INFO traceid=NO-REQUESTID task-id=sync-inventory_928037e8-afe2-11ee-8a34-3e5d46d8634f thread_id=task-2 logger=net.juniper.atom.jobsvc.util.JobStoreHelper msg=Updated parent task:sync-inventory-subprocess_92775e42-afe2-11ee-8a34-3e5d46d8634f 
+type=APPLOG username=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:03:35 level=INFO traceid=NO-REQUESTID task-id=sync-inventory_928037e8-afe2-11ee-8a34-3e5d46d8634f thread_id=task-2 logger=net.juniper.atom.jobsvc.util.JobStoreHelper msg=updated task:sync-inventory_928037e8-afe2-11ee-8a34-3e5d46d8634f 
+type=APPLOG username=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:03:35 level=INFO traceid=NO-REQUESTID task-id=sync-inventory_928037e8-afe2-11ee-8a34-3e5d46d8634f thread_id=task-2 logger=net.juniper.atom.jobsvc.util.JobStoreHelper msg=in getTaskByActivityIdExecutionId 
+type=APPLOG username=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:03:35 level=INFO traceid=NO-REQUESTID task-id=sync-inventory_928037e8-afe2-11ee-8a34-3e5d46d8634f thread_id=task-2 logger=JobSvcDelegate msg= JobSvcDelegate executed  timeout: 1200 
+type=APPLOG username=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:03:35 level=INFO traceid=NO-REQUESTID task-id=sync-inventory_928037e8-afe2-11ee-8a34-3e5d46d8634f thread_id=task-2 logger=JobSvcDelegate msg=Created task ProcessInstanceId:926339f2-afe2-11ee-8a34-3e5d46d8634f, JobUUID:913a781d-f2ea-461b-af03-25eff32d9d79, TaskUUID:0046c560-d01f-4fa6-a472-8a6e1612a9e3, Task Status:pending 
+time=2024-01-10T18:03:39 level=INFO thread_id=pool-3-thread-4 logger=TaskTriggerTimerTask msg={} ==> Creating new Span 
+time=2024-01-10T18:03:39 level=INFO thread_id=pool-3-thread-4 logger=TaskTriggerTimerTask msg= Msg sending for task 0046c560-d01f-4fa6-a472-8a6e1612a9e3 name Sync Inventory for each device_928037e8-afe2-11ee-8a34-3e5d46d8634f display name null execution id 928037e8-afe2-11ee-8a34-3e5d46d8634f 
+time=2024-01-10T18:03:39 level=INFO thread_id=kafka-producer-network-thread | producer-1 logger=KafkaPublisher msg=Sent message=[{"task_name":"Sync Inventory for each device_928037e8-afe2-11ee-8a34-3e5d46d8634f","plugin_id":"sync-inventory","job_uuid":"913a781d-f2ea-461b-af03-25eff32d9d79","variables":{"sync_inventory_single_device_input":{"resource_identifier":"vmx106","device_uuid":"050266cc-311a-42dd-8bd0-ec647f3e8504"}},"context":{"uid":"system","uname":"system","psids":[""],"sname":"default","stype":"SP","x_request_id":"req-8f8de681-013f-4b43-90f3-031d305cc4c6","sid":"c4347eee-3399-4db5-bdf4-64f496ffdba6"},"task_id":"0046c560-d01f-4fa6-a472-8a6e1612a9e3","task_uuid":"sync-inventory_928037e8-afe2-11ee-8a34-3e5d46d8634f","timeout":1200}] with offset=[52]  topic = [devicemanager.resync] partition =[4] 
+type=APPLOG username=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:03:39 level=INFO traceid=req-8f8de681-013f-4b43-90f3-031d305cc4c6 job-id=913a781d-f2ea-461b-af03-25eff32d9d79 task-id=sync-inventory_928037e8-afe2-11ee-8a34-3e5d46d8634f thread_id=grpc-default-executor-0 logger=UserTokenInfo msg=url is UpdatePluginStatus 
+type=APPLOG username=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:03:39 level=INFO traceid=req-8f8de681-013f-4b43-90f3-031d305cc4c6 job-id=913a781d-f2ea-461b-af03-25eff32d9d79 task-id=sync-inventory_928037e8-afe2-11ee-8a34-3e5d46d8634f thread_id=grpc-default-executor-0 logger=net.juniper.atom.jobsvc.grpc.JobServiceServer msg=entered updatePluginStatus for job 913a781d-f2ea-461b-af03-25eff32d9d79 and task 0046c560-d01f-4fa6-a472-8a6e1612a9e3 
+type=APPLOG username=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:03:39 level=INFO traceid=req-8f8de681-013f-4b43-90f3-031d305cc4c6 job-id=913a781d-f2ea-461b-af03-25eff32d9d79 task-id=sync-inventory_928037e8-afe2-11ee-8a34-3e5d46d8634f thread_id=grpc-default-executor-0 logger=net.juniper.atom.jobsvc.grpc.JobServiceServer msg=service token not null 
+type=APPLOG username=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:03:39 level=INFO traceid=req-8f8de681-013f-4b43-90f3-031d305cc4c6 job-id=913a781d-f2ea-461b-af03-25eff32d9d79 task-id=sync-inventory_928037e8-afe2-11ee-8a34-3e5d46d8634f thread_id=grpc-default-executor-0 logger=net.juniper.atom.jobsvc.grpc.JobServiceServer msg=updating token info in thread context 
+type=APPLOG username=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:03:39 level=INFO traceid=req-8f8de681-013f-4b43-90f3-031d305cc4c6 job-id=913a781d-f2ea-461b-af03-25eff32d9d79 task-id=sync-inventory_928037e8-afe2-11ee-8a34-3e5d46d8634f thread_id=grpc-default-executor-0 logger=net.juniper.atom.jobsvc.grpc.JobServiceServer msg=exiting updatePluginStatus for job 913a781d-f2ea-461b-af03-25eff32d9d79 and task 0046c560-d01f-4fa6-a472-8a6e1612a9e3 with status code success 
+type=APPLOG username=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:03:46 level=INFO traceid=req-8f8de681-013f-4b43-90f3-031d305cc4c6 job-id=913a781d-f2ea-461b-af03-25eff32d9d79 task-id=sync-inventory_928037e8-afe2-11ee-8a34-3e5d46d8634f thread_id=grpc-default-executor-0 logger=UserTokenInfo msg=url is UpdatePluginResponse 
+type=APPLOG username=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:03:46 level=INFO traceid=req-8f8de681-013f-4b43-90f3-031d305cc4c6 job-id=913a781d-f2ea-461b-af03-25eff32d9d79 task-id=sync-inventory_928037e8-afe2-11ee-8a34-3e5d46d8634f thread_id=grpc-default-executor-0 logger=net.juniper.atom.jobsvc.grpc.JobServiceServer msg=entered updatePluginResponse for job 913a781d-f2ea-461b-af03-25eff32d9d79 and task 0046c560-d01f-4fa6-a472-8a6e1612a9e3 
+type=APPLOG username=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:03:46 level=INFO traceid=req-8f8de681-013f-4b43-90f3-031d305cc4c6 job-id=913a781d-f2ea-461b-af03-25eff32d9d79 task-id=sync-inventory_928037e8-afe2-11ee-8a34-3e5d46d8634f thread_id=grpc-default-executor-0 logger=net.juniper.atom.jobsvc.grpc.JobServiceServer msg=service token not null 
+type=APPLOG username=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:03:46 level=INFO traceid=req-8f8de681-013f-4b43-90f3-031d305cc4c6 job-id=913a781d-f2ea-461b-af03-25eff32d9d79 task-id=sync-inventory_928037e8-afe2-11ee-8a34-3e5d46d8634f thread_id=grpc-default-executor-0 logger=net.juniper.atom.jobsvc.grpc.JobServiceServer msg=updating token info in thread context 
+type=APPLOG username=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:03:46 level=INFO traceid=req-8f8de681-013f-4b43-90f3-031d305cc4c6 job-id=913a781d-f2ea-461b-af03-25eff32d9d79 task-id=sync-inventory_928037e8-afe2-11ee-8a34-3e5d46d8634f thread_id=grpc-default-executor-0 logger=net.juniper.atom.jobsvc.util.JobStoreHelper msg=in update task status 
+type=APPLOG username=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:03:46 level=INFO traceid=req-8f8de681-013f-4b43-90f3-031d305cc4c6 job-id=913a781d-f2ea-461b-af03-25eff32d9d79 task-id=sync-inventory_928037e8-afe2-11ee-8a34-3e5d46d8634f thread_id=grpc-default-executor-0 logger=net.juniper.atom.jobsvc.util.JobStoreHelper msg=updated task status 
+type=APPLOG username=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:03:46 level=INFO traceid=req-8f8de681-013f-4b43-90f3-031d305cc4c6 job-id=913a781d-f2ea-461b-af03-25eff32d9d79 task-id=sync-inventory_928037e8-afe2-11ee-8a34-3e5d46d8634f thread_id=grpc-default-executor-0 logger=net.juniper.atom.jobsvc.grpc.JobServiceServer msg=exiting updatePluginResponse for job 913a781d-f2ea-461b-af03-25eff32d9d79 and task 0046c560-d01f-4fa6-a472-8a6e1612a9e3 
+time=2024-01-10T18:03:46 level=INFO thread_id=task-3 logger=JobSvcDelegate msg=In JobSvcDelegate Trigger 928037e8-afe2-11ee-8a34-3e5d46d8634f sync-inventory sync-inventory 
+type=APPLOG username=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:03:46 level=INFO traceid=NO-REQUESTID job-id=913a781d-f2ea-461b-af03-25eff32d9d79 task-id=sync-inventory_928037e8-afe2-11ee-8a34-3e5d46d8634f thread_id=task-3 logger=JobSvcDelegate msg=In JobSvcDelegate Trigger success 
+type=APPLOG username=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:03:46 level=INFO traceid=NO-REQUESTID job-id=913a781d-f2ea-461b-af03-25eff32d9d79 task-id=sync-inventory_928037e8-afe2-11ee-8a34-3e5d46d8634f thread_id=task-3 logger=net.juniper.atom.jobsvc.service.JobService msg=process definition id 188c379a-9f26-11ee-b806-c26ef6acd299 
+type=APPLOG username=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:03:46 level=INFO traceid=NO-REQUESTID job-id=913a781d-f2ea-461b-af03-25eff32d9d79 task-id=sync-inventory_928037e8-afe2-11ee-8a34-3e5d46d8634f thread_id=task-3 logger=net.juniper.atom.jobsvc.service.JobService msg=updating progress for sync-inventory to 100.0 
+type=APPLOG username=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:03:46 level=INFO traceid=NO-REQUESTID job-id=913a781d-f2ea-461b-af03-25eff32d9d79 task-id=sync-inventory_928037e8-afe2-11ee-8a34-3e5d46d8634f thread_id=task-3 logger=net.juniper.atom.jobsvc.util.JobStoreHelper msg=in update task percentage 
+type=APPLOG username=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:03:46 level=INFO traceid=NO-REQUESTID job-id=913a781d-f2ea-461b-af03-25eff32d9d79 task-id=sync-inventory_928037e8-afe2-11ee-8a34-3e5d46d8634f thread_id=task-3 logger=net.juniper.atom.jobsvc.util.JobStoreHelper msg=in getTaskByActivityIdExecutionId 
+type=APPLOG username=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:03:46 level=INFO traceid=NO-REQUESTID job-id=913a781d-f2ea-461b-af03-25eff32d9d79 task-id=sync-inventory_928037e8-afe2-11ee-8a34-3e5d46d8634f thread_id=task-3 logger=net.juniper.atom.jobsvc.util.JobStoreHelper msg=updated task percentage 
+type=APPLOG username=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:03:46 level=INFO traceid=NO-REQUESTID job-id=913a781d-f2ea-461b-af03-25eff32d9d79 task-id=sync-inventory_928037e8-afe2-11ee-8a34-3e5d46d8634f thread_id=task-3 logger=net.juniper.atom.jobsvc.service.JobService msg=updating progress for sync-inventory-subprocess to 100.0 
+type=APPLOG username=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:03:46 level=INFO traceid=NO-REQUESTID job-id=913a781d-f2ea-461b-af03-25eff32d9d79 task-id=sync-inventory_928037e8-afe2-11ee-8a34-3e5d46d8634f thread_id=task-3 logger=net.juniper.atom.jobsvc.util.JobStoreHelper msg=in update task percentage 
+type=APPLOG username=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:03:46 level=INFO traceid=NO-REQUESTID job-id=913a781d-f2ea-461b-af03-25eff32d9d79 task-id=sync-inventory_928037e8-afe2-11ee-8a34-3e5d46d8634f thread_id=task-3 logger=net.juniper.atom.jobsvc.util.JobStoreHelper msg=in getTaskByActivityIdExecutionId 
+type=APPLOG username=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:03:46 level=INFO traceid=NO-REQUESTID job-id=913a781d-f2ea-461b-af03-25eff32d9d79 task-id=sync-inventory_928037e8-afe2-11ee-8a34-3e5d46d8634f thread_id=task-3 logger=net.juniper.atom.jobsvc.util.JobStoreHelper msg=updated task percentage 
+type=APPLOG username=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:03:46 level=INFO traceid=NO-REQUESTID job-id=913a781d-f2ea-461b-af03-25eff32d9d79 task-id=sync-inventory_928037e8-afe2-11ee-8a34-3e5d46d8634f thread_id=task-3 logger=net.juniper.atom.jobsvc.service.JobService msg=updating job percentage to 100.0 
+type=APPLOG username=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:03:46 level=INFO traceid=NO-REQUESTID job-id=913a781d-f2ea-461b-af03-25eff32d9d79 task-id=sync-inventory_928037e8-afe2-11ee-8a34-3e5d46d8634f thread_id=task-3 logger=net.juniper.atom.jobsvc.util.JobStoreHelper msg=in update job percentage 
+type=APPLOG username=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:03:46 level=INFO traceid=NO-REQUESTID job-id=913a781d-f2ea-461b-af03-25eff32d9d79 task-id=sync-inventory_928037e8-afe2-11ee-8a34-3e5d46d8634f thread_id=task-3 logger=net.juniper.atom.jobsvc.util.JobStoreHelper msg=getJobByProcessInstanceId 
+type=APPLOG username=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:03:46 level=INFO traceid=NO-REQUESTID job-id=913a781d-f2ea-461b-af03-25eff32d9d79 task-id=sync-inventory_928037e8-afe2-11ee-8a34-3e5d46d8634f thread_id=task-3 logger=net.juniper.atom.jobsvc.util.JobStoreHelper msg=updated job percentage 
+serviceTasktype=APPLOG username=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:03:46 level=INFO traceid=NO-REQUESTID job-id=913a781d-f2ea-461b-af03-25eff32d9d79 task-id=sync-inventory_928037e8-afe2-11ee-8a34-3e5d46d8634f thread_id=task-3 logger=net.juniper.atom.jobsvc.util.JobStoreHelper msg=in task completion sync-inventory_928037e8-afe2-11ee-8a34-3e5d46d8634f 
+type=APPLOG username=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:03:46 level=INFO traceid=NO-REQUESTID job-id=913a781d-f2ea-461b-af03-25eff32d9d79 task-id=sync-inventory_928037e8-afe2-11ee-8a34-3e5d46d8634f thread_id=task-3 logger=net.juniper.atom.jobsvc.util.JobStoreHelper msg=in getTaskByActivityIdExecutionId 
+subProcesstype=APPLOG username=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:03:46 level=INFO traceid=NO-REQUESTID job-id=913a781d-f2ea-461b-af03-25eff32d9d79 task-id=sync-inventory_928037e8-afe2-11ee-8a34-3e5d46d8634f thread_id=task-3 logger=net.juniper.atom.jobsvc.util.JobStoreHelper msg=in task completion sync-inventory-subprocess_92775e42-afe2-11ee-8a34-3e5d46d8634f 
+type=APPLOG username=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:03:46 level=INFO traceid=NO-REQUESTID job-id=913a781d-f2ea-461b-af03-25eff32d9d79 task-id=sync-inventory_928037e8-afe2-11ee-8a34-3e5d46d8634f thread_id=task-3 logger=net.juniper.atom.jobsvc.util.JobStoreHelper msg=in getTaskByActivityIdExecutionId 
+type=APPLOG username=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:03:46 level=INFO traceid=NO-REQUESTID job-id=913a781d-f2ea-461b-af03-25eff32d9d79 task-id=sync-inventory_928037e8-afe2-11ee-8a34-3e5d46d8634f thread_id=task-3 logger=net.juniper.atom.jobsvc.util.JobStoreHelper msg=updating task completion status 
+type=APPLOG username=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:03:46 level=INFO traceid=NO-REQUESTID job-id=913a781d-f2ea-461b-af03-25eff32d9d79 task-id=sync-inventory_928037e8-afe2-11ee-8a34-3e5d46d8634f thread_id=task-3 logger=net.juniper.atom.jobsvc.util.JobStoreHelper msg=updated task completion status 
+type=APPLOG username=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:03:46 level=INFO traceid=NO-REQUESTID job-id=913a781d-f2ea-461b-af03-25eff32d9d79 task-id=sync-inventory_928037e8-afe2-11ee-8a34-3e5d46d8634f thread_id=task-3 logger=net.juniper.atom.jobsvc.util.JobStoreHelper msg=in update job completion 
+type=APPLOG username=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:03:46 level=INFO traceid=NO-REQUESTID job-id=913a781d-f2ea-461b-af03-25eff32d9d79 task-id=sync-inventory_928037e8-afe2-11ee-8a34-3e5d46d8634f thread_id=task-3 logger=net.juniper.atom.jobsvc.util.JobStoreHelper msg=getJobByProcessInstanceId 
+type=APPLOG username=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:03:46 level=INFO traceid=NO-REQUESTID job-id=913a781d-f2ea-461b-af03-25eff32d9d79 task-id=sync-inventory_928037e8-afe2-11ee-8a34-3e5d46d8634f thread_id=task-3 logger=net.juniper.atom.jobsvc.util.JobStoreHelper msg=updating job completion status 
+type=APPLOG username=system tenant_id=c4347eee-3399-4db5-bdf4-64f496ffdba6 time=2024-01-10T18:03:46 level=INFO traceid=NO-REQUESTID job-id=913a781d-f2ea-461b-af03-25eff32d9d79 task-id=sync-inventory_928037e8-afe2-11ee-8a34-3e5d46d8634f thread_id=task-3 logger=net.juniper.atom.jobsvc.util.JobStoreHelper msg=updated job completion 
+time=2024-01-10T18:04:34 level=INFO thread_id=pool-3-thread-2 logger=FailInActiveJobTimer msg=Inactive JOB IDs:[51fe19b7-ca7b-4b95-b6d0-89dc0c449ebe, 2133d7dd-c2ff-4f93-b71d-1edc0dea9c7a] 
+time=2024-01-10T18:04:34 level=INFO thread_id=pool-3-thread-2 logger=FailInActiveJobTimer msg=Inprogress Tasks for inactive jobs 0 
+error happened while executing postjava.net.SocketTimeoutException: Read timed out
+time=2024-01-10T18:04:34 level=ERROR thread_id=pool-3-thread-1 logger=JobServiceTimerTask msg=There is an error in starting job. java.lang.NullPointerException 
+time=2024-01-10T18:04:34 level=INFO thread_id=pool-3-thread-1 logger=net.juniper.atom.jobsvc.util.JobStoreHelper msg=in update scheduled job: status: FAILED id: 60ce14ad-1816-47e4-a8be-6803d8168759 
+time=2024-01-10T18:04:34 level=INFO thread_id=pool-3-thread-1 logger=net.juniper.atom.jobsvc.util.JobStoreHelper msg=updated scheduled job 
+time=2024-01-10T18:05:34 level=INFO thread_id=pool-3-thread-2 logger=FailInActiveJobTimer msg=Inactive JOB IDs:[51fe19b7-ca7b-4b95-b6d0-89dc0c449ebe, 2133d7dd-c2ff-4f93-b71d-1edc0dea9c7a] 
+time=2024-01-10T18:05:34 level=INFO thread_id=pool-3-thread-2 logger=FailInActiveJobTimer msg=Inprogress Tasks for inactive jobs 0 
+time=2024-01-10T18:06:34 level=INFO thread_id=pool-3-thread-3 logger=FailInActiveJobTimer msg=Inactive JOB IDs:[51fe19b7-ca7b-4b95-b6d0-89dc0c449ebe, 2133d7dd-c2ff-4f93-b71d-1edc0dea9c7a] 
+time=2024-01-10T18:06:34 level=INFO thread_id=pool-3-thread-3 logger=FailInActiveJobTimer msg=Inprogress Tasks for inactive jobs 0 
+time=2024-01-10T18:07:34 level=INFO thread_id=pool-3-thread-2 logger=FailInActiveJobTimer msg=Inactive JOB IDs:[51fe19b7-ca7b-4b95-b6d0-89dc0c449ebe, 2133d7dd-c2ff-4f93-b71d-1edc0dea9c7a] 
+time=2024-01-10T18:07:34 level=INFO thread_id=pool-3-thread-2 logger=FailInActiveJobTimer msg=Inprogress Tasks for inactive jobs 0 
+time=2024-01-10T18:08:04 level=WARN thread_id=kafka-producer-network-thread | producer-1 logger=org.apache.kafka.clients.NetworkClient msg=[Producer clientId=producer-1] 3 partitions have leader brokers without a matching listener, including [devicemanager.resync-5, devicemanager.resync-2, devicemanager.resync-8] 
+time=2024-01-10T18:08:34 level=INFO thread_id=pool-3-thread-3 logger=FailInActiveJobTimer msg=Inactive JOB IDs:[51fe19b7-ca7b-4b95-b6d0-89dc0c449ebe, 2133d7dd-c2ff-4f93-b71d-1edc0dea9c7a] 
+time=2024-01-10T18:08:34 level=INFO thread_id=pool-3-thread-3 logger=FailInActiveJobTimer msg=Inprogress Tasks for inactive jobs 0 
+time=2024-01-10T18:09:34 level=INFO thread_id=pool-3-thread-2 logger=FailInActiveJobTimer msg=Inactive JOB IDs:[51fe19b7-ca7b-4b95-b6d0-89dc0c449ebe, 2133d7dd-c2ff-4f93-b71d-1edc0dea9c7a] 
+time=2024-01-10T18:09:34 level=INFO thread_id=pool-3-thread-2 logger=FailInActiveJobTimer msg=Inprogress Tasks for inactive jobs 0 
+time=2024-01-10T18:09:43 level=INFO thread_id=OkHttp https://10.96.0.1/... logger=io.fabric8.kubernetes.client.informers.cache.ReflectorWatcher msg=Event received MODIFIED 
+time=2024-01-10T18:09:43 level=INFO thread_id=pool-18-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.PodController msg=PodListener::Namespace: ems  Pod:  devicemanager-df6cd476d-fgbfz with phase Running got updated 
+time=2024-01-10T18:09:43 level=INFO thread_id=pool-18-thread-1 logger=net.juniper.atom.jobsvc.util.PodMap msg=Removing pod from alive pod, pod name devicemanager-df6cd476d-fgbfz 
+time=2024-01-10T18:09:43 level=WARN thread_id=pool-18-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.PodController msg=Pod devicemanager-df6cd476d-fgbfz is already present, removing from PodMap, old:ContainerDetail{containerName='devicemanager', containerId='docker://24f15b4a8e710f7d9385e27e96ca6ec3c79440c1468e0b794cc14cb3c7c52e56', startedAt='Wed Jan 10 17:31:59 UTC 2024'} 
+time=2024-01-10T18:09:43 level=WARN thread_id=pool-18-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.PodController msg=Pod devicemanager-df6cd476d-fgbfz is not ready, hence won't be added to the pod map, Phase:Running 
+time=2024-01-10T18:09:44 level=INFO thread_id=OkHttp https://10.96.0.1/... logger=io.fabric8.kubernetes.client.informers.cache.ReflectorWatcher msg=Event received MODIFIED 
+time=2024-01-10T18:09:44 level=INFO thread_id=pool-18-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.PodController msg=PodListener::Namespace: ems  Pod:  devicemanager-df6cd476d-fgbfz with phase Running got updated 
+time=2024-01-10T18:09:44 level=WARN thread_id=pool-18-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.PodController msg=Pod devicemanager-df6cd476d-fgbfz is not ready, hence won't be added to the pod map, Phase:Running 
+time=2024-01-10T18:09:52 level=INFO thread_id=OkHttp https://10.96.0.1/... logger=io.fabric8.kubernetes.client.informers.cache.ReflectorWatcher msg=Event received MODIFIED 
+time=2024-01-10T18:09:52 level=INFO thread_id=pool-18-thread-1 logger=net.juniper.atom.jobsvc.operator.controller.PodController msg=PodListener::Namespace: ems  Pod:  devicemanager-df6cd476d-fgbfz with phase Running got updated 
+time=2024-01-10T18:09:52 level=INFO thread_id=pool-18-thread-1 logger=net.juniper.atom.jobsvc.util.PodMap msg=Adding container:ContainerDetail{containerName='devicemanager', containerId='docker://d1f4bcb8787d8f0704676d427212ebfeb1dc29763a321ee556b3526d414492c5', startedAt='Wed Jan 10 18:09:43 UTC 2024'} to alive pods map for pod:devicemanager-df6cd476d-fgbfz 
+time=2024-01-10T18:10:34 level=INFO thread_id=pool-3-thread-3 logger=FailInActiveJobTimer msg=Inactive JOB IDs:[51fe19b7-ca7b-4b95-b6d0-89dc0c449ebe, 2133d7dd-c2ff-4f93-b71d-1edc0dea9c7a] 
+time=2024-01-10T18:10:34 level=INFO thread_id=pool-3-thread-3 logger=FailInActiveJobTimer msg=Inprogress Tasks for inactive jobs 0 
+time=2024-01-10T18:11:34 level=INFO thread_id=pool-3-thread-1 logger=FailInActiveJobTimer msg=Inactive JOB IDs:[51fe19b7-ca7b-4b95-b6d0-89dc0c449ebe, 2133d7dd-c2ff-4f93-b71d-1edc0dea9c7a] 
+time=2024-01-10T18:11:34 level=INFO thread_id=pool-3-thread-1 logger=FailInActiveJobTimer msg=Inprogress Tasks for inactive jobs 0 
+time=2024-01-10T18:12:04 level=WARN thread_id=kafka-producer-network-thread | producer-1 logger=org.apache.kafka.clients.NetworkClient msg=[Producer clientId=producer-1] 3 partitions have leader brokers without a matching listener, including [devicemanager.resync-5, devicemanager.resync-2, devicemanager.resync-8] 
+time=2024-01-10T18:12:34 level=INFO thread_id=pool-3-thread-1 logger=FailInActiveJobTimer msg=Inactive JOB IDs:[51fe19b7-ca7b-4b95-b6d0-89dc0c449ebe, 2133d7dd-c2ff-4f93-b71d-1edc0dea9c7a] 
+time=2024-01-10T18:12:34 level=INFO thread_id=pool-3-thread-1 logger=FailInActiveJobTimer msg=Inprogress Tasks for inactive jobs 0 
+time=2024-01-10T18:13:34 level=INFO thread_id=pool-3-thread-4 logger=FailInActiveJobTimer msg=Inactive JOB IDs:[51fe19b7-ca7b-4b95-b6d0-89dc0c449ebe, 2133d7dd-c2ff-4f93-b71d-1edc0dea9c7a] 
+time=2024-01-10T18:13:34 level=INFO thread_id=pool-3-thread-4 logger=FailInActiveJobTimer msg=Inprogress Tasks for inactive jobs 0 
+time=2024-01-10T18:14:34 level=INFO thread_id=pool-3-thread-1 logger=FailInActiveJobTimer msg=Inactive JOB IDs:[51fe19b7-ca7b-4b95-b6d0-89dc0c449ebe, 2133d7dd-c2ff-4f93-b71d-1edc0dea9c7a] 
+time=2024-01-10T18:14:34 level=INFO thread_id=pool-3-thread-1 logger=FailInActiveJobTimer msg=Inprogress Tasks for inactive jobs 0 
+time=2024-01-10T18:15:34 level=INFO thread_id=pool-3-thread-1 logger=FailInActiveJobTimer msg=Inactive JOB IDs:[51fe19b7-ca7b-4b95-b6d0-89dc0c449ebe, 2133d7dd-c2ff-4f93-b71d-1edc0dea9c7a] 
+time=2024-01-10T18:15:34 level=INFO thread_id=pool-3-thread-1 logger=FailInActiveJobTimer msg=Inprogress Tasks for inactive jobs 0 
+time=2024-01-10T18:16:34 level=INFO thread_id=pool-3-thread-4 logger=FailInActiveJobTimer msg=Inactive JOB IDs:[51fe19b7-ca7b-4b95-b6d0-89dc0c449ebe, 2133d7dd-c2ff-4f93-b71d-1edc0dea9c7a] 
+time=2024-01-10T18:16:34 level=INFO thread_id=pool-3-thread-4 logger=FailInActiveJobTimer msg=Inprogress Tasks for inactive jobs 0 
+time=2024-01-10T18:17:04 level=WARN thread_id=kafka-producer-network-thread | producer-1 logger=org.apache.kafka.clients.NetworkClient msg=[Producer clientId=producer-1] 3 partitions have leader brokers without a matching listener, including [devicemanager.resync-5, devicemanager.resync-2, devicemanager.resync-8] 
+time=2024-01-10T18:17:34 level=INFO thread_id=pool-3-thread-4 logger=FailInActiveJobTimer msg=Inactive JOB IDs:[51fe19b7-ca7b-4b95-b6d0-89dc0c449ebe, 2133d7dd-c2ff-4f93-b71d-1edc0dea9c7a] 
+time=2024-01-10T18:17:34 level=INFO thread_id=pool-3-thread-4 logger=FailInActiveJobTimer msg=Inprogress Tasks for inactive jobs 0 
+time=2024-01-10T18:18:34 level=INFO thread_id=pool-3-thread-1 logger=FailInActiveJobTimer msg=Inactive JOB IDs:[51fe19b7-ca7b-4b95-b6d0-89dc0c449ebe, 2133d7dd-c2ff-4f93-b71d-1edc0dea9c7a] 
+time=2024-01-10T18:18:34 level=INFO thread_id=pool-3-thread-1 logger=FailInActiveJobTimer msg=Inprogress Tasks for inactive jobs 0 
+time=2024-01-10T18:19:34 level=INFO thread_id=pool-3-thread-4 logger=FailInActiveJobTimer msg=Inactive JOB IDs:[51fe19b7-ca7b-4b95-b6d0-89dc0c449ebe, 2133d7dd-c2ff-4f93-b71d-1edc0dea9c7a] 
+time=2024-01-10T18:19:34 level=INFO thread_id=pool-3-thread-4 logger=FailInActiveJobTimer msg=Inprogress Tasks for inactive jobs 0 
+time=2024-01-10T18:20:35 level=INFO thread_id=pool-3-thread-2 logger=FailInActiveJobTimer msg=Inactive JOB IDs:[51fe19b7-ca7b-4b95-b6d0-89dc0c449ebe, 2133d7dd-c2ff-4f93-b71d-1edc0dea9c7a] 
+time=2024-01-10T18:20:35 level=INFO thread_id=pool-3-thread-2 logger=FailInActiveJobTimer msg=Inprogress Tasks for inactive jobs 0 
+time=2024-01-10T18:21:35 level=INFO thread_id=pool-3-thread-4 logger=FailInActiveJobTimer msg=Inactive JOB IDs:[51fe19b7-ca7b-4b95-b6d0-89dc0c449ebe, 2133d7dd-c2ff-4f93-b71d-1edc0dea9c7a] 
+time=2024-01-10T18:21:35 level=INFO thread_id=pool-3-thread-4 logger=FailInActiveJobTimer msg=Inprogress Tasks for inactive jobs 0 
+time=2024-01-10T18:22:35 level=INFO thread_id=pool-3-thread-1 logger=FailInActiveJobTimer msg=Inactive JOB IDs:[51fe19b7-ca7b-4b95-b6d0-89dc0c449ebe, 2133d7dd-c2ff-4f93-b71d-1edc0dea9c7a] 
+time=2024-01-10T18:22:35 level=INFO thread_id=pool-3-thread-1 logger=FailInActiveJobTimer msg=Inprogress Tasks for inactive jobs 0 
+time=2024-01-10T18:23:35 level=INFO thread_id=pool-3-thread-4 logger=FailInActiveJobTimer msg=Inactive JOB IDs:[51fe19b7-ca7b-4b95-b6d0-89dc0c449ebe, 2133d7dd-c2ff-4f93-b71d-1edc0dea9c7a] 
+time=2024-01-10T18:23:35 level=INFO thread_id=pool-3-thread-4 logger=FailInActiveJobTimer msg=Inprogress Tasks for inactive jobs 0 
+time=2024-01-10T18:24:35 level=INFO thread_id=pool-3-thread-1 logger=FailInActiveJobTimer msg=Inactive JOB IDs:[51fe19b7-ca7b-4b95-b6d0-89dc0c449ebe, 2133d7dd-c2ff-4f93-b71d-1edc0dea9c7a] 
+time=2024-01-10T18:24:35 level=INFO thread_id=pool-3-thread-1 logger=FailInActiveJobTimer msg=Inprogress Tasks for inactive jobs 0 
+time=2024-01-10T18:25:35 level=INFO thread_id=pool-3-thread-1 logger=FailInActiveJobTimer msg=Inactive JOB IDs:[51fe19b7-ca7b-4b95-b6d0-89dc0c449ebe, 2133d7dd-c2ff-4f93-b71d-1edc0dea9c7a] 
+time=2024-01-10T18:25:35 level=INFO thread_id=pool-3-thread-1 logger=FailInActiveJobTimer msg=Inprogress Tasks for inactive jobs 0 
